@@ -154,7 +154,7 @@
 | [numpy.binary_repr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.binary_repr.html#numpy.binary_repr) | [Numo::NArray]() |
 | [numpy.bincount](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bincount.html#numpy.bincount) | [Numo::NArray#bincount](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#bincount-instance_method) |
 | [numpy.bitwise_and](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bitwise_and.html#numpy.bitwise_and) | [Numo::NArray#&](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#&-instance_method) |
-| [numpy.bitwise_or](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bitwise_or.html#numpy.bitwise_or) | [Numo::NArray#|](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#%7C-instance_method) |
+| [numpy.bitwise_or](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bitwise_or.html#numpy.bitwise_or) | [Numo::NArray#\|](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#%7C-instance_method) |
 | [numpy.bitwise_xor](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bitwise_xor.html#numpy.bitwise_xor) | [Numo::NArray]() |
 | [numpy.blackman](https://docs.scipy.org/doc/numpy/reference/generated/numpy.blackman.html#numpy.blackman) | [Numo::NArray]() |
 | [numpy.bmat](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bmat.html#numpy.bmat) | [Numo::NArray]() |
