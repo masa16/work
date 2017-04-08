@@ -29,7 +29,7 @@
 | [numpy.argpartition](https://docs.scipy.org/doc/numpy/reference/generated/numpy.argpartition.html#numpy.argpartition) | [Numo::NArray]() |
 | [numpy.argsort](https://docs.scipy.org/doc/numpy/reference/generated/numpy.argsort.html#numpy.argsort) | [Numo::NArray#sort_index](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#sort_index-instance_method) |
 | [numpy.argwhere](https://docs.scipy.org/doc/numpy/reference/generated/numpy.argwhere.html#numpy.argwhere) | [Numo::NArray]() |
-| [numpy.around](https://docs.scipy.org/doc/numpy/reference/generated/numpy.around.html#numpy.around) | [Numo::NArray]() |
+| [numpy.around](https://docs.scipy.org/doc/numpy/reference/generated/numpy.around.html#numpy.around) | [Numo::NArray#round](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#round-instance_method) |
 | [numpy.array](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html#numpy.array) | [Numo::NArray.\[\]](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#[]-class_method) |
 | [numpy.array2string](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array2string.html#numpy.array2string) | [Numo::NArray#format_to_a](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#format_to_a-instance_method) |
 | [numpy.array_equal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array_equal.html#numpy.array_equal) | [Numo::NArray#==](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#==-instance_method) |
@@ -110,7 +110,7 @@
 | [numpy.exp2](https://docs.scipy.org/doc/numpy/reference/generated/numpy.exp2.html#numpy.exp2) | [Numo::NArray](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#exp2-class_method) |
 | [numpy.expand_dims](https://docs.scipy.org/doc/numpy/reference/generated/numpy.expand_dims.html#numpy.expand_dims) | [Numo::NArray#expand_dims](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#expand_dims-instance_method) |
 | [numpy.expm1](https://docs.scipy.org/doc/numpy/reference/generated/numpy.expm1.html#numpy.expm1) | [Numo::NArray]() |
-| [numpy.extract](https://docs.scipy.org/doc/numpy/reference/generated/numpy.extract.html#numpy.extract) | [Numo::NArray]() |
+| [numpy.extract](https://docs.scipy.org/doc/numpy/reference/generated/numpy.extract.html#numpy.extract) | [Numo::NArray#\[\]](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#[]-class_method) |
 | [numpy.eye](https://docs.scipy.org/doc/numpy/reference/generated/numpy.eye.html#numpy.eye) | [Numo::NArray.eye](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#eye-class_method) |
 | [numpy.fabs](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fabs.html#numpy.fabs) | [Numo::NArray#abs](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#abs-instance_method) |
 | [numpy.fill_diagonal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fill_diagonal.html#numpy.fill_diagonal) | [Numo::NArray]() |
@@ -257,7 +257,7 @@
 | [numpy.partition](https://docs.scipy.org/doc/numpy/reference/generated/numpy.partition.html#numpy.partition) | [Numo::NArray]() |
 | [numpy.percentile](https://docs.scipy.org/doc/numpy/reference/generated/numpy.percentile.html#numpy.percentile) | [Numo::NArray]() |
 | [numpy.piecewise](https://docs.scipy.org/doc/numpy/reference/generated/numpy.piecewise.html#numpy.piecewise) | [Numo::NArray]() |
-| [numpy.place](https://docs.scipy.org/doc/numpy/reference/generated/numpy.place.html#numpy.place) | [Numo::NArray]() |
+| [numpy.place](https://docs.scipy.org/doc/numpy/reference/generated/numpy.place.html#numpy.place) | Numo::NArray#\[\]= |
 | [numpy.pmt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pmt.html#numpy.pmt) | [Numo::NArray]() |
 | [numpy.poly](https://docs.scipy.org/doc/numpy/reference/generated/numpy.poly.html#numpy.poly) | [Numo::NArray]() |
 | [numpy.polyadd](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyadd.html#numpy.polyadd) | [Numo::NArray]() |
@@ -267,13 +267,13 @@
 | [numpy.polyint](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyint.html#numpy.polyint) | [Numo::NArray]() |
 | [numpy.polymul](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polymul.html#numpy.polymul) | [Numo::NArray]() |
 | [numpy.polysub](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polysub.html#numpy.polysub) | [Numo::NArray]() |
-| [numpy.polyval](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyval.html#numpy.polyval) | [Numo::NArray]() |
+| [numpy.polyval](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyval.html#numpy.polyval) | [Numo::NArray#poly](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#poly-instance_method) |
 | [numpy.power](https://docs.scipy.org/doc/numpy/reference/generated/numpy.power.html#numpy.power) | [Numo::NArray#**](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#**-instance_method) |
 | [numpy.ppmt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ppmt.html#numpy.ppmt) | [Numo::NArray]() |
 | [numpy.prod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.prod.html#numpy.prod) | [Numo::NArray]() |
 | [numpy.promote_types](https://docs.scipy.org/doc/numpy/reference/generated/numpy.promote_types.html#numpy.promote_types) | [Numo::NArray]() |
 | [numpy.ptp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ptp.html#numpy.ptp) | [Numo::NArray]() |
-| [numpy.put](https://docs.scipy.org/doc/numpy/reference/generated/numpy.put.html#numpy.put) | [Numo::NArray]() |
+| [numpy.put](https://docs.scipy.org/doc/numpy/reference/generated/numpy.put.html#numpy.put) | Numo::NArray#\[\]= |
 | [numpy.putmask](https://docs.scipy.org/doc/numpy/reference/generated/numpy.putmask.html#numpy.putmask) | [Numo::NArray]() |
 | [numpy.pv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pv.html#numpy.pv) | [Numo::NArray]() |
 | [numpy.r_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.r_.html#numpy.r_) | [Numo::NArray]() |
@@ -298,7 +298,7 @@
 | [numpy.rollaxis](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rollaxis.html#numpy.rollaxis) | [Numo::NArray]() |
 | [numpy.roots](https://docs.scipy.org/doc/numpy/reference/generated/numpy.roots.html#numpy.roots) | [Numo::NArray]() |
 | [numpy.rot90](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rot90.html#numpy.rot90) | [Numo::NArray]() |
-| [numpy.round_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.round_.html#numpy.round_) | [Numo::NArray]() |
+| [numpy.round_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.round_.html#numpy.round_) | [Numo::NArray#round](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#round-instance_method) |
 | [numpy.s_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.s_.html#numpy.s_) | [Numo::NArray]() |
 | [numpy.save](https://docs.scipy.org/doc/numpy/reference/generated/numpy.save.html#numpy.save) | [Numo::NArray#marshal_dump](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#marshal_dump-instance_method) |
 | [numpy.savetxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.savetxt.html#numpy.savetxt) | [Numo::NArray]() |
@@ -350,7 +350,7 @@
 | [numpy.triu_indices](https://docs.scipy.org/doc/numpy/reference/generated/numpy.triu_indices.html#numpy.triu_indices) | [Numo::NArray]() |
 | [numpy.triu_indices_from](https://docs.scipy.org/doc/numpy/reference/generated/numpy.triu_indices_from.html#numpy.triu_indices_from) | [Numo::NArray]() |
 | [numpy.true_divide](https://docs.scipy.org/doc/numpy/reference/generated/numpy.true_divide.html#numpy.true_divide) | [Numo::NArray]() |
-| [numpy.trunc](https://docs.scipy.org/doc/numpy/reference/generated/numpy.trunc.html#numpy.trunc) | [Numo::NArray]() |
+| [numpy.trunc](https://docs.scipy.org/doc/numpy/reference/generated/numpy.trunc.html#numpy.trunc) | [Numo::NArray#trunc](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#trunc-instance_method) |
 | [numpy.typename](https://docs.scipy.org/doc/numpy/reference/generated/numpy.typename.html#numpy.typename) | [Numo::NArray]() |
 | [numpy.union1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.union1d.html#numpy.union1d) | [Numo::NArray]() |
 | [numpy.unique](https://docs.scipy.org/doc/numpy/reference/generated/numpy.unique.html#numpy.unique) | [Numo::NArray]() |
