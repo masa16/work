@@ -134,7 +134,7 @@
 | [numpy.fromregex](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromregex.html#numpy.fromregex) | not yet |
 | [numpy.fromstring](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromstring.html#numpy.fromstring) | [Numo::NArray.from_binary](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#from_binary-class_method) |
 | [numpy.full](https://docs.scipy.org/doc/numpy/reference/generated/numpy.full.html#numpy.full) | [Numo::NArray#fill](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#fill-instance_method) |
-| [numpy.full_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.full_like.html#numpy.full_like) | [Numo::NArray#new_fill](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#new_fill-instance_method) |
+| [numpy.full_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.full_like.html#numpy.full_like) | [Numo::NArray#new_fill](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#new_fill-instance_method) |
 | [numpy.fv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fv.html#numpy.fv) | no plan |
 | [numpy.genfromtxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html#numpy.genfromtxt) | not yet |
 | [numpy.geomspace](https://docs.scipy.org/doc/numpy/reference/generated/numpy.geomspace.html#numpy.geomspace) | not yet |
@@ -319,8 +319,8 @@
 | [numpy.sign](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sign.html#numpy.sign) | not yet |
 | [numpy.signbit](https://docs.scipy.org/doc/numpy/reference/generated/numpy.signbit.html#numpy.signbit) | not yet |
 | [numpy.sin](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sin.html#numpy.sin) | [Numo::NMath.sin](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#sin-class_method) |
-| [numpy.sinc](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sinc.html#numpy.sinc) | [Numo::NArray]() |
-| [numpy.sinh](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sinh.html#numpy.sinh) | [Numo::NMath](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#sinh-class_method) |
+| [numpy.sinc](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sinc.html#numpy.sinc) | [Numo::NMath.sinc](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#sinc-class_method) |
+| [numpy.sinh](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sinh.html#numpy.sinh) | [Numo::NMath.sinh](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#sinh-class_method) |
 | [numpy.sort](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sort.html#numpy.sort) | [Numo::NArray#sort](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#sort-instance_method) |
 | [numpy.sort_complex](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sort_complex.html#numpy.sort_complex) | not yet |
 | [numpy.source](https://docs.scipy.org/doc/numpy/reference/generated/numpy.source.html#numpy.source) | not yet |
