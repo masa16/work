@@ -87,8 +87,8 @@
 | [numpy.cross](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cross.html#numpy.cross) | not yet |
 | [numpy.cumprod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cumprod.html#numpy.cumprod) | [Numo::NArray#cumprod](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#cumprod-instance_method) |
 | [numpy.cumsum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cumsum.html#numpy.cumsum) | [Numo::NArray#cumsum](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#cumsum-instance_method) |
-| [numpy.deg2rad](https://docs.scipy.org/doc/numpy/reference/generated/numpy.deg2rad.html#numpy.deg2rad) | [Numo::NArray]() |
-| [numpy.degrees](https://docs.scipy.org/doc/numpy/reference/generated/numpy.degrees.html#numpy.degrees) | [Numo::NArray]() |
+| [numpy.deg2rad](https://docs.scipy.org/doc/numpy/reference/generated/numpy.deg2rad.html#numpy.deg2rad) | [Numo::NArray#deg2rad](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#deg2rad-instance_method) |
+| [numpy.degrees](https://docs.scipy.org/doc/numpy/reference/generated/numpy.degrees.html#numpy.degrees) | [Numo::NArray#rad2deg](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#rad2deg-instance_method) |
 | [numpy.delete](https://docs.scipy.org/doc/numpy/reference/generated/numpy.delete.html#numpy.delete) | not yet |
 | [numpy.diag](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diag.html#numpy.diag) | not yet |
 | [numpy.diag_indices](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diag_indices.html#numpy.diag_indices) | not yet |
@@ -277,8 +277,8 @@
 | [numpy.putmask](https://docs.scipy.org/doc/numpy/reference/generated/numpy.putmask.html#numpy.putmask) | not yet |
 | [numpy.pv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pv.html#numpy.pv) | no plan |
 | [numpy.r_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.r_.html#numpy.r_) | no plan |
-| [numpy.rad2deg](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rad2deg.html#numpy.rad2deg) | [Numo::NArray]() |
-| [numpy.radians](https://docs.scipy.org/doc/numpy/reference/generated/numpy.radians.html#numpy.radians) | [Numo::NArray]() |
+| [numpy.rad2deg](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rad2deg.html#numpy.rad2deg) | [Numo::NArray#rad2deg](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#rad2deg-instance_method) |
+| [numpy.radians](https://docs.scipy.org/doc/numpy/reference/generated/numpy.radians.html#numpy.radians) | [Numo::NArray#deg2rad](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#deg2rad-instance_method) |
 | [numpy.rate](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rate.html#numpy.rate) | no plan |
 | [numpy.ravel](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ravel.html#numpy.ravel) | not yet |
 | [numpy.ravel_multi_index](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ravel_multi_index.html#numpy.ravel_multi_index) | not yet |
