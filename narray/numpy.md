@@ -48,7 +48,7 @@
 | [numpy.atleast_1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_1d.html#numpy.atleast_1d) | not yet |
 | [numpy.atleast_2d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_2d.html#numpy.atleast_2d) | not yet |
 | [numpy.atleast_3d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_3d.html#numpy.atleast_3d) | not yet |
-| [numpy.average](https://docs.scipy.org/doc/numpy/reference/generated/numpy.average.html#numpy.average) | [Numo::NArray#mean](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#mean-instance_method) |
+| [numpy.average](https://docs.scipy.org/doc/numpy/reference/generated/numpy.average.html#numpy.average) | [Numo::GSL::Stats.wmean](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Stats.html#wmean-class_method) |
 | [numpy.bartlett](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bartlett.html#numpy.bartlett) | not yet |
 | [numpy.base_repr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.base_repr.html#numpy.base_repr) | not yet |
 | [numpy.binary_repr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.binary_repr.html#numpy.binary_repr) | not yet |
@@ -78,12 +78,12 @@
 | [numpy.copy](https://docs.scipy.org/doc/numpy/reference/generated/numpy.copy.html#numpy.copy) | [Numo::NArray#copy]() |
 | [numpy.copysign](https://docs.scipy.org/doc/numpy/reference/generated/numpy.copysign.html#numpy.copysign) | [Numo::NArray#copysign](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#copysign-instance_method) |
 | [numpy.copyto](https://docs.scipy.org/doc/numpy/reference/generated/numpy.copyto.html#numpy.copyto) | [Numo::NArray#store](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#store-instance_method) |
-| [numpy.corrcoef](https://docs.scipy.org/doc/numpy/reference/generated/numpy.corrcoef.html#numpy.corrcoef) | not yet |
+| [numpy.corrcoef](https://docs.scipy.org/doc/numpy/reference/generated/numpy.corrcoef.html#numpy.corrcoef) | [Numo::GSL::Stats.correlation](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Stats.html#correlation-class_method) |
 | [numpy.correlate](https://docs.scipy.org/doc/numpy/reference/generated/numpy.correlate.html#numpy.correlate) | not yet |
 | [numpy.cos](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cos.html#numpy.cos) | [Numo::NMath.cos](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#cos-class_method) |
 | [numpy.cosh](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cosh.html#numpy.cosh) | [Numo::NMath.cosh](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#cosh-class_method) |
 | [numpy.count_nonzero](https://docs.scipy.org/doc/numpy/reference/generated/numpy.count_nonzero.html#numpy.count_nonzero) | not yet |
-| [numpy.cov](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cov.html#numpy.cov) | not yet |
+| [numpy.cov](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cov.html#numpy.cov) | [Numo::GSL::Stats.covariance](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Stats.html#covariance-class_method) |
 | [numpy.cross](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cross.html#numpy.cross) | not yet |
 | [numpy.cumprod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cumprod.html#numpy.cumprod) | [Numo::NArray#cumprod](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#cumprod-instance_method) |
 | [numpy.cumsum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cumsum.html#numpy.cumsum) | [Numo::NArray#cumsum](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#cumsum-instance_method) |
@@ -149,8 +149,8 @@
 | [numpy.greater_equal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.greater_equal.html#numpy.greater_equal) | [Numo::NArray#ge](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#ge-instance_method) |
 | [numpy.hamming](https://docs.scipy.org/doc/numpy/reference/generated/numpy.hamming.html#numpy.hamming) | not yet |
 | [numpy.hanning](https://docs.scipy.org/doc/numpy/reference/generated/numpy.hanning.html#numpy.hanning) | not yet |
-| [numpy.histogram](https://docs.scipy.org/doc/numpy/reference/generated/numpy.histogram.html#numpy.histogram) | not yet |
-| [numpy.histogram2d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.histogram2d.html#numpy.histogram2d) | not yet |
+| [numpy.histogram](https://docs.scipy.org/doc/numpy/reference/generated/numpy.histogram.html#numpy.histogram) | [Numo::GSL::Histogram](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Histogram.html) |
+| [numpy.histogram2d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.histogram2d.html#numpy.histogram2d) | [Numo::GSL::Histogram2D](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Histogram2D.html) |
 | [numpy.histogramdd](https://docs.scipy.org/doc/numpy/reference/generated/numpy.histogramdd.html#numpy.histogramdd) | not yet |
 | [numpy.hsplit](https://docs.scipy.org/doc/numpy/reference/generated/numpy.hsplit.html#numpy.hsplit) | [Numo::NArray#hsplit](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#hsplit-instance_method) |
 | [numpy.hstack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.hstack.html#numpy.hstack) | [Numo::NArray.hstack](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#hstack-class_method) |
