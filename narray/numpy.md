@@ -182,7 +182,7 @@
 | [numpy.isrealobj](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isrealobj.html#numpy.isrealobj) | not yet |
 | [numpy.isscalar](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isscalar.html#numpy.isscalar) | not yet |
 | [numpy.issctype](https://docs.scipy.org/doc/numpy/reference/generated/numpy.issctype.html#numpy.issctype) | not yet |
-| [numpy.issubclass_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.issubclass_.html#numpy.issubclass_) | not yet |
+| [numpy.issubclass_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.issubclass_.html#numpy.issubclass_) | no plan |
 | [numpy.issubdtype](https://docs.scipy.org/doc/numpy/reference/generated/numpy.issubdtype.html#numpy.issubdtype) | not yet |
 | [numpy.issubsctype](https://docs.scipy.org/doc/numpy/reference/generated/numpy.issubsctype.html#numpy.issubsctype) | not yet |
 | [numpy.ix_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ix_.html#numpy.ix_) | not yet |
@@ -227,19 +227,19 @@
 | [numpy.msort](https://docs.scipy.org/doc/numpy/reference/generated/numpy.msort.html#numpy.msort) | not yet |
 | [numpy.multiply](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html#numpy.multiply) | [Numo::NArray#*](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#*-instance_method) |
 | [numpy.nan_to_num](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nan_to_num.html#numpy.nan_to_num) | not yet |
-| [numpy.nanargmax](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanargmax.html#numpy.nanargmax) | [Numo::NArray]() |
-| [numpy.nanargmin](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanargmin.html#numpy.nanargmin) | [Numo::NArray]() |
-| [numpy.nancumprod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nancumprod.html#numpy.nancumprod) | [Numo::NArray]() |
-| [numpy.nancumsum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nancumsum.html#numpy.nancumsum) | [Numo::NArray]() |
-| [numpy.nanmax](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanmax.html#numpy.nanmax) | [Numo::NArray]() |
-| [numpy.nanmean](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanmean.html#numpy.nanmean) | [Numo::NArray]() |
-| [numpy.nanmedian](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanmedian.html#numpy.nanmedian) | [Numo::NArray]() |
-| [numpy.nanmin](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanmin.html#numpy.nanmin) | [Numo::NArray]() |
+| [numpy.nanargmax](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanargmax.html#numpy.nanargmax) | [Numo::NArray#max_index](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#max_index-instance_method) |
+| [numpy.nanargmin](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanargmin.html#numpy.nanargmin) | [Numo::NArray#min_index](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#min_index-instance_method) |
+| [numpy.nancumprod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nancumprod.html#numpy.nancumprod) | [Numo::NArray#cumprod](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#cumprod-instance_method) |
+| [numpy.nancumsum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nancumsum.html#numpy.nancumsum) | [Numo::NArray#cumsum](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#cumsum-instance_method) |
+| [numpy.nanmax](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanmax.html#numpy.nanmax) | [Numo::NArray#max](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#max-instance_method) |
+| [numpy.nanmean](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanmean.html#numpy.nanmean) | [Numo::NArray#mean](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#mean-instance_method) |
+| [numpy.nanmedian](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanmedian.html#numpy.nanmedian) | [Numo::NArray#median](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#median-instance_method) |
+| [numpy.nanmin](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanmin.html#numpy.nanmin) | [Numo::NArray#min](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#min-instance_method) |
 | [numpy.nanpercentile](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanpercentile.html#numpy.nanpercentile) | not yet |
 | [numpy.nanprod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanprod.html#numpy.nanprod) | not yet |
-| [numpy.nanstd](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanstd.html#numpy.nanstd) | [Numo::NArray]() |
-| [numpy.nansum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nansum.html#numpy.nansum) | [Numo::NArray]() |
-| [numpy.nanvar](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanvar.html#numpy.nanvar) | [Numo::NArray]() |
+| [numpy.nanstd](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanstd.html#numpy.nanstd) | [Numo::NArray#stddev](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#stddev-instance_method) |
+| [numpy.nansum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nansum.html#numpy.nansum) | [Numo::NArray#sum](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#sum-instance_method) |
+| [numpy.nanvar](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanvar.html#numpy.nanvar) | [Numo::NArray#var](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#var-instance_method) |
 | [numpy.negative](https://docs.scipy.org/doc/numpy/reference/generated/numpy.negative.html#numpy.negative) | [Numo::NArray#-@](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#-@-instance_method) |
 | [numpy.newaxis](https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html#numpy.newaxis) | [Numo::NArray]() |
 | [numpy.newbuffer](https://docs.scipy.org/doc/numpy/reference/generated/numpy.newbuffer.html#numpy.newbuffer) | not yet |
