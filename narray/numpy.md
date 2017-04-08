@@ -106,10 +106,10 @@
 | [numpy.empty](https://docs.scipy.org/doc/numpy/reference/generated/numpy.empty.html#numpy.empty) | Numo::NArray.new |
 | [numpy.empty_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.empty_like.html#numpy.empty_like) | [Numo::NArray#new_narray](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#new_narray-instance_method) |
 | [numpy.equal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.equal.html#numpy.equal) | [Numo::NArray#eq](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#eq-instance_method) |
-| [numpy.exp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.exp.html#numpy.exp) | [Numo::NMatrix.exp](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#exp-class_method) |
-| [numpy.exp2](https://docs.scipy.org/doc/numpy/reference/generated/numpy.exp2.html#numpy.exp2) | [Numo::NArray](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#exp2-class_method) |
+| [numpy.exp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.exp.html#numpy.exp) | [Numo::NMath.exp](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#exp-class_method) |
+| [numpy.exp2](https://docs.scipy.org/doc/numpy/reference/generated/numpy.exp2.html#numpy.exp2) | [Numo::NArray.exp2](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#exp2-class_method) |
 | [numpy.expand_dims](https://docs.scipy.org/doc/numpy/reference/generated/numpy.expand_dims.html#numpy.expand_dims) | [Numo::NArray#expand_dims](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#expand_dims-instance_method) |
-| [numpy.expm1](https://docs.scipy.org/doc/numpy/reference/generated/numpy.expm1.html#numpy.expm1) | [Numo::NArray]() |
+| [numpy.expm1](https://docs.scipy.org/doc/numpy/reference/generated/numpy.expm1.html#numpy.expm1) | [Numo::NMath.expm1](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#expm1-class_method) |
 | [numpy.extract](https://docs.scipy.org/doc/numpy/reference/generated/numpy.extract.html#numpy.extract) | [Numo::NArray#\[\]](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#[]-class_method) |
 | [numpy.eye](https://docs.scipy.org/doc/numpy/reference/generated/numpy.eye.html#numpy.eye) | [Numo::NArray.eye](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#eye-class_method) |
 | [numpy.fabs](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fabs.html#numpy.fabs) | [Numo::NArray#abs](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#abs-instance_method) |
@@ -198,7 +198,7 @@
 | [numpy.loadtxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.loadtxt.html#numpy.loadtxt) | not yet |
 | [numpy.log](https://docs.scipy.org/doc/numpy/reference/generated/numpy.log.html#numpy.log) | [Numo::NMath.log](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#log-class_method) |
 | [numpy.log10](https://docs.scipy.org/doc/numpy/reference/generated/numpy.log10.html#numpy.log10) | [Numo::NMath.log10](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#log10-class_method) |
-| [numpy.log1p](https://docs.scipy.org/doc/numpy/reference/generated/numpy.log1p.html#numpy.log1p) | [Numo::NArray]() |
+| [numpy.log1p](https://docs.scipy.org/doc/numpy/reference/generated/numpy.log1p.html#numpy.log1p) | [Numo::NMath.log1p](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#log1p-class_method) |
 | [numpy.log2](https://docs.scipy.org/doc/numpy/reference/generated/numpy.log2.html#numpy.log2) | [Numo::NMath.log2](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#log2-class_method) |
 | [numpy.logaddexp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.logaddexp.html#numpy.logaddexp) | not yet |
 | [numpy.logaddexp2](https://docs.scipy.org/doc/numpy/reference/generated/numpy.logaddexp2.html#numpy.logaddexp2) | not yet |
