@@ -107,7 +107,7 @@
 | [numpy.empty_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.empty_like.html#numpy.empty_like) | [Numo::NArray#new_narray](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#new_narray-instance_method) |
 | [numpy.equal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.equal.html#numpy.equal) | [Numo::NArray#eq](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#eq-instance_method) |
 | [numpy.exp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.exp.html#numpy.exp) | [Numo::NMath.exp](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#exp-class_method) |
-| [numpy.exp2](https://docs.scipy.org/doc/numpy/reference/generated/numpy.exp2.html#numpy.exp2) | [Numo::NArray.exp2](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#exp2-class_method) |
+| [numpy.exp2](https://docs.scipy.org/doc/numpy/reference/generated/numpy.exp2.html#numpy.exp2) | [Numo::NMath.exp2](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#exp2-class_method) |
 | [numpy.expand_dims](https://docs.scipy.org/doc/numpy/reference/generated/numpy.expand_dims.html#numpy.expand_dims) | [Numo::NArray#expand_dims](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#expand_dims-instance_method) |
 | [numpy.expm1](https://docs.scipy.org/doc/numpy/reference/generated/numpy.expm1.html#numpy.expm1) | [Numo::NMath.expm1](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#expm1-class_method) |
 | [numpy.extract](https://docs.scipy.org/doc/numpy/reference/generated/numpy.extract.html#numpy.extract) | [Numo::NArray#\[\]](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#[]-class_method) |
