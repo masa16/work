@@ -103,8 +103,8 @@
 | [numpy.dstack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.dstack.html#numpy.dstack) | [Numo::NArray.dstack](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#dstack-class_method) |
 | [numpy.ediff1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ediff1d.html#numpy.ediff1d) | not yet |
 | [numpy.einsum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.einsum.html#numpy.einsum) | not yet |
-| [numpy.empty](https://docs.scipy.org/doc/numpy/reference/generated/numpy.empty.html#numpy.empty) | [Numo::NArray.new]() |
-| [numpy.empty_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.empty_like.html#numpy.empty_like) | not yet |
+| [numpy.empty](https://docs.scipy.org/doc/numpy/reference/generated/numpy.empty.html#numpy.empty) | Numo::NArray.new |
+| [numpy.empty_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.empty_like.html#numpy.empty_like) | [Numo::NArray#new_narray](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#new_narray-instance_method) |
 | [numpy.equal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.equal.html#numpy.equal) | [Numo::NArray#eq](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#eq-instance_method) |
 | [numpy.exp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.exp.html#numpy.exp) | [Numo::NMatrix.exp](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#exp-class_method) |
 | [numpy.exp2](https://docs.scipy.org/doc/numpy/reference/generated/numpy.exp2.html#numpy.exp2) | [Numo::NArray](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#exp2-class_method) |
@@ -125,7 +125,7 @@
 | [numpy.fmax](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fmax.html#numpy.fmax) | [Numo::NArray]() |
 | [numpy.fmin](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fmin.html#numpy.fmin) | [Numo::NArray]() |
 | [numpy.fmod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fmod.html#numpy.fmod) | [Numo::NArray#%](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#%25-instance_method) |
-| [numpy.frexp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.frexp.html#numpy.frexp) | [Numo::NArray]() |
+| [numpy.frexp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.frexp.html#numpy.frexp) | [Numo::NMath.frexp](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#frexp-class_method) |
 | [numpy.frombuffer](https://docs.scipy.org/doc/numpy/reference/generated/numpy.frombuffer.html#numpy.frombuffer) | [Numo::NArray.from_binary](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#from_binary-class_method) |
 | [numpy.fromfile](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromfile.html#numpy.fromfile) | not yet |
 | [numpy.fromfunction](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromfunction.html#numpy.fromfunction) | not yet |
@@ -134,7 +134,7 @@
 | [numpy.fromregex](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromregex.html#numpy.fromregex) | not yet |
 | [numpy.fromstring](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromstring.html#numpy.fromstring) | [Numo::NArray.from_binary](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#from_binary-class_method) |
 | [numpy.full](https://docs.scipy.org/doc/numpy/reference/generated/numpy.full.html#numpy.full) | [Numo::NArray#fill](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#fill-instance_method) |
-| [numpy.full_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.full_like.html#numpy.full_like) | not yet |
+| [numpy.full_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.full_like.html#numpy.full_like) | [Numo::NArray#new_fill](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#new_fill-instance_method) |
 | [numpy.fv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fv.html#numpy.fv) | no plan |
 | [numpy.genfromtxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html#numpy.genfromtxt) | not yet |
 | [numpy.geomspace](https://docs.scipy.org/doc/numpy/reference/generated/numpy.geomspace.html#numpy.geomspace) | not yet |
@@ -224,7 +224,7 @@
 | [numpy.mod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mod.html#numpy.mod) | [Numo::NArray#%](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#%25-instance_method) |
 | [numpy.modf](https://docs.scipy.org/doc/numpy/reference/generated/numpy.modf.html#numpy.modf) | [Numo::NArray]() |
 | [numpy.moveaxis](https://docs.scipy.org/doc/numpy/reference/generated/numpy.moveaxis.html#numpy.moveaxis) | not yet |
-| [numpy.msort](https://docs.scipy.org/doc/numpy/reference/generated/numpy.msort.html#numpy.msort) | [Numo::NArray#sort_index](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#sort_index-instance_method) |
+| [numpy.msort](https://docs.scipy.org/doc/numpy/reference/generated/numpy.msort.html#numpy.msort) | [Numo::NArray#sort](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#sort-instance_method) |
 | [numpy.multiply](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html#numpy.multiply) | [Numo::NArray#*](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#*-instance_method) |
 | [numpy.nan_to_num](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nan_to_num.html#numpy.nan_to_num) | not yet |
 | [numpy.nanargmax](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanargmax.html#numpy.nanargmax) | [Numo::NArray#max_index](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#max_index-instance_method) |
@@ -250,7 +250,7 @@
 | [numpy.obj2sctype](https://docs.scipy.org/doc/numpy/reference/generated/numpy.obj2sctype.html#numpy.obj2sctype) | not yet |
 | [numpy.ogrid](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ogrid.html#numpy.ogrid) | not yet |
 | [numpy.ones](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ones.html#numpy.ones) | [Numo::NArray.ones](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#ones-class_method) |
-| [numpy.ones_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ones_like.html#numpy.ones_like) | not yet |
+| [numpy.ones_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ones_like.html#numpy.ones_like) | [Numo::NArray#new_ones](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#new_ones-instance_method) |
 | [numpy.outer](https://docs.scipy.org/doc/numpy/reference/generated/numpy.outer.html#numpy.outer) | not yet |
 | [numpy.packbits](https://docs.scipy.org/doc/numpy/reference/generated/numpy.packbits.html#numpy.packbits) | not yet |
 | [numpy.pad](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pad.html#numpy.pad) | not yet |
@@ -349,7 +349,7 @@
 | [numpy.triu](https://docs.scipy.org/doc/numpy/reference/generated/numpy.triu.html#numpy.triu) | not yet |
 | [numpy.triu_indices](https://docs.scipy.org/doc/numpy/reference/generated/numpy.triu_indices.html#numpy.triu_indices) | not yet |
 | [numpy.triu_indices_from](https://docs.scipy.org/doc/numpy/reference/generated/numpy.triu_indices_from.html#numpy.triu_indices_from) | not yet |
-| [numpy.true_divide](https://docs.scipy.org/doc/numpy/reference/generated/numpy.true_divide.html#numpy.true_divide) | [Numo::NArray#/](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#%2F-instance_method) |
+| [numpy.true_divide](https://docs.scipy.org/doc/numpy/reference/generated/numpy.true_divide.html#numpy.true_divide) | not yet |
 | [numpy.trunc](https://docs.scipy.org/doc/numpy/reference/generated/numpy.trunc.html#numpy.trunc) | [Numo::NArray#trunc](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#trunc-instance_method) |
 | [numpy.typename](https://docs.scipy.org/doc/numpy/reference/generated/numpy.typename.html#numpy.typename) | no plan |
 | [numpy.union1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.union1d.html#numpy.union1d) | not yet |
@@ -364,4 +364,4 @@
 | [numpy.vstack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.vstack.html#numpy.vstack) | [Numo::NArray.vstack](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#vstack-class_method) |
 | [numpy.where](https://docs.scipy.org/doc/numpy/reference/generated/numpy.where.html#numpy.where) | [Numo::Bit#where](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#where-instance_method) |
 | [numpy.zeros](https://docs.scipy.org/doc/numpy/reference/generated/numpy.zeros.html#numpy.zeros) | [Numo::NArray.zeros](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#zeros-class_method) |
-| [numpy.zeros_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.zeros_like.html#numpy.zeros_like) | not yet |
+| [numpy.zeros_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.zeros_like.html#numpy.zeros_like) | [Numo::NArray#new_zeros](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#new_zeros-instance_method) |
