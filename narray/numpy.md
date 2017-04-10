@@ -7,13 +7,13 @@
 | [numpy.absolute](https://docs.scipy.org/doc/numpy/reference/generated/numpy.absolute.html#numpy.absolute) | [Numo::DComplex#abs](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html) |
 | [numpy.add](https://docs.scipy.org/doc/numpy/reference/generated/numpy.add.html#numpy.add) | [Numo::NArray#+](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#%2B-instance_method) |
 | [numpy.all](https://docs.scipy.org/doc/numpy/reference/generated/numpy.all.html#numpy.all) | [Numo::Bit#all?](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#all%3F-instance_method) |
-| [numpy.allclose](https://docs.scipy.org/doc/numpy/reference/generated/numpy.allclose.html#numpy.allclose) | not yet |
-| [numpy.alterdot](https://docs.scipy.org/doc/numpy/reference/generated/numpy.alterdot.html#numpy.alterdot) | not yet |
-| [numpy.amax](https://docs.scipy.org/doc/numpy/reference/generated/numpy.amax.html#numpy.amax) | [Numo::NArray]() |
-| [numpy.amin](https://docs.scipy.org/doc/numpy/reference/generated/numpy.amin.html#numpy.amin) | [Numo::NArray]() |
+| [numpy.allclose](https://docs.scipy.org/doc/numpy/reference/generated/numpy.allclose.html#numpy.allclose) | Numo::NArray#nearly_eq(other).all? |
+| [numpy.alterdot](https://docs.scipy.org/doc/numpy/reference/generated/numpy.alterdot.html#numpy.alterdot) | no plan (deprecated) |
+| [numpy.amax](https://docs.scipy.org/doc/numpy/reference/generated/numpy.amax.html#numpy.amax) | [Numo::NArray#max](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#max-instance_method) |
+| [numpy.amin](https://docs.scipy.org/doc/numpy/reference/generated/numpy.amin.html#numpy.amin) | [Numo::NArray#min](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#min-instance_method) |
 | [numpy.angle](https://docs.scipy.org/doc/numpy/reference/generated/numpy.angle.html#numpy.angle) | [Numo::DComplex#arg](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html#arg-instance_method) |
 | [numpy.any](https://docs.scipy.org/doc/numpy/reference/generated/numpy.any.html#numpy.any) | [Numo::Bit#any?](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#any%3F-instance_method) |
-| [numpy.append](https://docs.scipy.org/doc/numpy/reference/generated/numpy.append.html#numpy.append) | not yet |
+| [numpy.append](https://docs.scipy.org/doc/numpy/reference/generated/numpy.append.html#numpy.append) | [Numo::NArray#append](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#append-instance_method) |
 | [numpy.apply_along_axis](https://docs.scipy.org/doc/numpy/reference/generated/numpy.apply_along_axis.html#numpy.apply_along_axis) | not yet |
 | [numpy.apply_over_axes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.apply_over_axes.html#numpy.apply_over_axes) | not yet |
 | [numpy.arange](https://docs.scipy.org/doc/numpy/reference/generated/numpy.arange.html#numpy.arange) | [Numo::NArray#seq](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#seq-instance_method) |
@@ -60,9 +60,9 @@
 | [numpy.bmat](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bmat.html#numpy.bmat) | not yet |
 | [numpy.broadcast_arrays](https://docs.scipy.org/doc/numpy/reference/generated/numpy.broadcast_arrays.html#numpy.broadcast_arrays) | not yet |
 | [numpy.broadcast_to](https://docs.scipy.org/doc/numpy/reference/generated/numpy.broadcast_to.html#numpy.broadcast_to) | not yet |
-| [numpy.busday_count](https://docs.scipy.org/doc/numpy/reference/generated/numpy.busday_count.html#numpy.busday_count) | no plan |
-| [numpy.busday_offset](https://docs.scipy.org/doc/numpy/reference/generated/numpy.busday_offset.html#numpy.busday_offset) | no plan |
-| [numpy.c_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.c_.html#numpy.c_) | no plan |
+| [numpy.busday_count](https://docs.scipy.org/doc/numpy/reference/generated/numpy.busday_count.html#numpy.busday_count) | no plan (date feature) |
+| [numpy.busday_offset](https://docs.scipy.org/doc/numpy/reference/generated/numpy.busday_offset.html#numpy.busday_offset) | no plan (date feature) |
+| [numpy.c_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.c_.html#numpy.c_) | no plan (index) |
 | [numpy.can_cast](https://docs.scipy.org/doc/numpy/reference/generated/numpy.can_cast.html#numpy.can_cast) | not yet |
 | [numpy.cbrt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cbrt.html#numpy.cbrt) | [Numo::NMath.cbrt](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#cbrt-class_method) |
 | [numpy.ceil](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ceil.html#numpy.ceil) | [Numo::NArray#ceil](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#ceil-instance_method) |
@@ -89,7 +89,7 @@
 | [numpy.cumsum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cumsum.html#numpy.cumsum) | [Numo::NArray#cumsum](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#cumsum-instance_method) |
 | [numpy.deg2rad](https://docs.scipy.org/doc/numpy/reference/generated/numpy.deg2rad.html#numpy.deg2rad) | [Numo::NArray#deg2rad](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#deg2rad-instance_method) |
 | [numpy.degrees](https://docs.scipy.org/doc/numpy/reference/generated/numpy.degrees.html#numpy.degrees) | [Numo::NArray#rad2deg](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#rad2deg-instance_method) |
-| [numpy.delete](https://docs.scipy.org/doc/numpy/reference/generated/numpy.delete.html#numpy.delete) | not yet |
+| [numpy.delete](https://docs.scipy.org/doc/numpy/reference/generated/numpy.delete.html#numpy.delete) | [Numo::NArray#insert](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#insert-instance_method) |
 | [numpy.diag](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diag.html#numpy.diag) | not yet |
 | [numpy.diag_indices](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diag_indices.html#numpy.diag_indices) | not yet |
 | [numpy.diag_indices_from](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diag_indices_from.html#numpy.diag_indices_from) | not yet |
@@ -135,7 +135,7 @@
 | [numpy.fromstring](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fromstring.html#numpy.fromstring) | [Numo::NArray.from_binary](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#from_binary-class_method) |
 | [numpy.full](https://docs.scipy.org/doc/numpy/reference/generated/numpy.full.html#numpy.full) | [Numo::NArray#fill](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#fill-instance_method) |
 | [numpy.full_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.full_like.html#numpy.full_like) | [Numo::NArray#new_fill](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#new_fill-instance_method) |
-| [numpy.fv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fv.html#numpy.fv) | no plan |
+| [numpy.fv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fv.html#numpy.fv) | no plan (financial) |
 | [numpy.genfromtxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html#numpy.genfromtxt) | not yet |
 | [numpy.geomspace](https://docs.scipy.org/doc/numpy/reference/generated/numpy.geomspace.html#numpy.geomspace) | not yet |
 | [numpy.get_printoptions](https://docs.scipy.org/doc/numpy/reference/generated/numpy.get_printoptions.html#numpy.get_printoptions) | not yet |
@@ -160,15 +160,15 @@
 | [numpy.imag](https://docs.scipy.org/doc/numpy/reference/generated/numpy.imag.html#numpy.imag) | [Numo::NArray#imag](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html#imag-instance_method) |
 | [numpy.in1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.in1d.html#numpy.in1d) | not yet |
 | [numpy.indices](https://docs.scipy.org/doc/numpy/reference/generated/numpy.indices.html#numpy.indices) | not yet |
-| [numpy.info](https://docs.scipy.org/doc/numpy/reference/generated/numpy.info.html#numpy.info) | no plan |
+| [numpy.info](https://docs.scipy.org/doc/numpy/reference/generated/numpy.info.html#numpy.info) | no plan (documentation) |
 | [numpy.inner](https://docs.scipy.org/doc/numpy/reference/generated/numpy.inner.html#numpy.inner) | not yet |
-| [numpy.insert](https://docs.scipy.org/doc/numpy/reference/generated/numpy.insert.html#numpy.insert) | not yet |
+| [numpy.insert](https://docs.scipy.org/doc/numpy/reference/generated/numpy.insert.html#numpy.insert) | [Numo::NArray#insert](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#insert-instance_method) |
 | [numpy.interp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.interp.html#numpy.interp) | [Numo::GSL::Spline](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Spline.html) |
 | [numpy.intersect1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.intersect1d.html#numpy.intersect1d) | not yet |
 | [numpy.invert](https://docs.scipy.org/doc/numpy/reference/generated/numpy.invert.html#numpy.invert) | [Numo::NArray#~](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#~-instance_method) |
-| [numpy.ipmt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ipmt.html#numpy.ipmt) | no plan |
-| [numpy.irr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.irr.html#numpy.irr) | no plan |
-| [numpy.is_busday](https://docs.scipy.org/doc/numpy/reference/generated/numpy.is_busday.html#numpy.is_busday) | no plan |
+| [numpy.ipmt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ipmt.html#numpy.ipmt) | no plan (financial) |
+| [numpy.irr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.irr.html#numpy.irr) | no plan (financial) |
+| [numpy.is_busday](https://docs.scipy.org/doc/numpy/reference/generated/numpy.is_busday.html#numpy.is_busday) | no plan (date) |
 | [numpy.isclose](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isclose.html#numpy.isclose) | [Numo::NArray#nearly_eq](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#nearly_eq-instance_method) |
 | [numpy.iscomplex](https://docs.scipy.org/doc/numpy/reference/generated/numpy.iscomplex.html#numpy.iscomplex) | not yet |
 | [numpy.iscomplexobj](https://docs.scipy.org/doc/numpy/reference/generated/numpy.iscomplexobj.html#numpy.iscomplexobj) | not yet |
@@ -182,7 +182,7 @@
 | [numpy.isrealobj](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isrealobj.html#numpy.isrealobj) | not yet |
 | [numpy.isscalar](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isscalar.html#numpy.isscalar) | not yet |
 | [numpy.issctype](https://docs.scipy.org/doc/numpy/reference/generated/numpy.issctype.html#numpy.issctype) | not yet |
-| [numpy.issubclass_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.issubclass_.html#numpy.issubclass_) | no plan |
+| [numpy.issubclass_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.issubclass_.html#numpy.issubclass_) | no plan (class) |
 | [numpy.issubdtype](https://docs.scipy.org/doc/numpy/reference/generated/numpy.issubdtype.html#numpy.issubdtype) | not yet |
 | [numpy.issubsctype](https://docs.scipy.org/doc/numpy/reference/generated/numpy.issubsctype.html#numpy.issubsctype) | not yet |
 | [numpy.ix_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ix_.html#numpy.ix_) | not yet |
@@ -207,7 +207,7 @@
 | [numpy.logical_or](https://docs.scipy.org/doc/numpy/reference/generated/numpy.logical_or.html#numpy.logical_or) | [Numo::Bit#\|](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#%7C-instance_method) |
 | [numpy.logical_xor](https://docs.scipy.org/doc/numpy/reference/generated/numpy.logical_xor.html#numpy.logical_xor) | [Numo::Bit#^](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#%5E-instance_method) |
 | [numpy.logspace](https://docs.scipy.org/doc/numpy/reference/generated/numpy.logspace.html#numpy.logspace) | [Numo::NArray.logspace](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#logspace-class_method) |
-| [numpy.lookfor](https://docs.scipy.org/doc/numpy/reference/generated/numpy.lookfor.html#numpy.lookfor) | no plan |
+| [numpy.lookfor](https://docs.scipy.org/doc/numpy/reference/generated/numpy.lookfor.html#numpy.lookfor) | no plan (documentation) |
 | [numpy.mask_indices](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mask_indices.html#numpy.mask_indices) | not yet |
 | [numpy.mat](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mat.html#numpy.mat) | not yet |
 | [numpy.matmul](https://docs.scipy.org/doc/numpy/reference/generated/numpy.matmul.html#numpy.matmul) | [Numo::NArray#dot](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#dot-instance_method) |
@@ -220,7 +220,7 @@
 | [numpy.min_scalar_type](https://docs.scipy.org/doc/numpy/reference/generated/numpy.min_scalar_type.html#numpy.min_scalar_type) | not yet |
 | [numpy.minimum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.minimum.html#numpy.minimum) | [Numo::NArray]() |
 | [numpy.mintypecode](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mintypecode.html#numpy.mintypecode) | not yet |
-| [numpy.mirr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mirr.html#numpy.mirr) | no plan |
+| [numpy.mirr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mirr.html#numpy.mirr) | no plan (financial) |
 | [numpy.mod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mod.html#numpy.mod) | [Numo::NArray#%](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#%25-instance_method) |
 | [numpy.modf](https://docs.scipy.org/doc/numpy/reference/generated/numpy.modf.html#numpy.modf) | [Numo::NArray]() |
 | [numpy.moveaxis](https://docs.scipy.org/doc/numpy/reference/generated/numpy.moveaxis.html#numpy.moveaxis) | not yet |
@@ -241,12 +241,12 @@
 | [numpy.nansum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nansum.html#numpy.nansum) | [Numo::NArray#sum](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#sum-instance_method) |
 | [numpy.nanvar](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanvar.html#numpy.nanvar) | [Numo::NArray#var](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#var-instance_method) |
 | [numpy.negative](https://docs.scipy.org/doc/numpy/reference/generated/numpy.negative.html#numpy.negative) | [Numo::NArray#-@](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#-@-instance_method) |
-| [numpy.newaxis](https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html#numpy.newaxis) | [Numo::NArray]() |
+| [numpy.newaxis](https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html#numpy.newaxis) | :new (Ruby symbol) |
 | [numpy.newbuffer](https://docs.scipy.org/doc/numpy/reference/generated/numpy.newbuffer.html#numpy.newbuffer) | not yet |
 | [numpy.nonzero](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nonzero.html#numpy.nonzero) | not yet |
 | [numpy.not_equal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.not_equal.html#numpy.not_equal) | [Numo::NArray#ne](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#ne-instance_method) |
-| [numpy.nper](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nper.html#numpy.nper) | no plan |
-| [numpy.npv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.npv.html#numpy.npv) | no plan |
+| [numpy.nper](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nper.html#numpy.nper) | no plan (financial) |
+| [numpy.npv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.npv.html#numpy.npv) | no plan (financial) |
 | [numpy.obj2sctype](https://docs.scipy.org/doc/numpy/reference/generated/numpy.obj2sctype.html#numpy.obj2sctype) | not yet |
 | [numpy.ogrid](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ogrid.html#numpy.ogrid) | not yet |
 | [numpy.ones](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ones.html#numpy.ones) | [Numo::NArray.ones](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#ones-class_method) |
@@ -258,28 +258,28 @@
 | [numpy.percentile](https://docs.scipy.org/doc/numpy/reference/generated/numpy.percentile.html#numpy.percentile) | not yet |
 | [numpy.piecewise](https://docs.scipy.org/doc/numpy/reference/generated/numpy.piecewise.html#numpy.piecewise) | not yet |
 | [numpy.place](https://docs.scipy.org/doc/numpy/reference/generated/numpy.place.html#numpy.place) | Numo::NArray#\[\]= |
-| [numpy.pmt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pmt.html#numpy.pmt) | no plan |
+| [numpy.pmt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pmt.html#numpy.pmt) | no plan (financial) |
 | [numpy.poly](https://docs.scipy.org/doc/numpy/reference/generated/numpy.poly.html#numpy.poly) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
-| [numpy.polyadd](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyadd.html#numpy.polyadd) | not yet |
-| [numpy.polyder](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyder.html#numpy.polyder) | not yet |
-| [numpy.polydiv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polydiv.html#numpy.polydiv) | not yet |
-| [numpy.polyfit](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyfit.html#numpy.polyfit) | not yet |
-| [numpy.polyint](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyint.html#numpy.polyint) | not yet |
-| [numpy.polymul](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polymul.html#numpy.polymul) | not yet |
-| [numpy.polysub](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polysub.html#numpy.polysub) | not yet |
+| [numpy.polyadd](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyadd.html#numpy.polyadd) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
+| [numpy.polyder](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyder.html#numpy.polyder) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
+| [numpy.polydiv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polydiv.html#numpy.polydiv) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
+| [numpy.polyfit](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyfit.html#numpy.polyfit) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
+| [numpy.polyint](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyint.html#numpy.polyint) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
+| [numpy.polymul](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polymul.html#numpy.polymul) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
+| [numpy.polysub](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polysub.html#numpy.polysub) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
 | [numpy.polyval](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyval.html#numpy.polyval) | [Numo::NArray#poly](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#poly-instance_method) |
 | [numpy.power](https://docs.scipy.org/doc/numpy/reference/generated/numpy.power.html#numpy.power) | [Numo::NArray#**](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#**-instance_method) |
-| [numpy.ppmt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ppmt.html#numpy.ppmt) | no plan |
+| [numpy.ppmt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ppmt.html#numpy.ppmt) | no plan (financial) |
 | [numpy.prod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.prod.html#numpy.prod) | not yet |
 | [numpy.promote_types](https://docs.scipy.org/doc/numpy/reference/generated/numpy.promote_types.html#numpy.promote_types) | not yet |
 | [numpy.ptp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ptp.html#numpy.ptp) | not yet |
 | [numpy.put](https://docs.scipy.org/doc/numpy/reference/generated/numpy.put.html#numpy.put) | Numo::NArray#\[\]= |
 | [numpy.putmask](https://docs.scipy.org/doc/numpy/reference/generated/numpy.putmask.html#numpy.putmask) | not yet |
-| [numpy.pv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pv.html#numpy.pv) | no plan |
-| [numpy.r_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.r_.html#numpy.r_) | no plan |
+| [numpy.pv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pv.html#numpy.pv) | no plan (financial) |
+| [numpy.r_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.r_.html#numpy.r_) | no plan (index) |
 | [numpy.rad2deg](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rad2deg.html#numpy.rad2deg) | [Numo::NArray#rad2deg](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#rad2deg-instance_method) |
 | [numpy.radians](https://docs.scipy.org/doc/numpy/reference/generated/numpy.radians.html#numpy.radians) | [Numo::NArray#deg2rad](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#deg2rad-instance_method) |
-| [numpy.rate](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rate.html#numpy.rate) | no plan |
+| [numpy.rate](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rate.html#numpy.rate) | no plan (financial) |
 | [numpy.ravel](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ravel.html#numpy.ravel) | not yet |
 | [numpy.ravel_multi_index](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ravel_multi_index.html#numpy.ravel_multi_index) | not yet |
 | [numpy.real](https://docs.scipy.org/doc/numpy/reference/generated/numpy.real.html#numpy.real) | [Numo::DComplex#real](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html#real-instance_method) |
@@ -290,7 +290,7 @@
 | [numpy.require](https://docs.scipy.org/doc/numpy/reference/generated/numpy.require.html#numpy.require) | not yet |
 | [numpy.reshape](https://docs.scipy.org/doc/numpy/reference/generated/numpy.reshape.html#numpy.reshape) | [Numo::NArray#reshape](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#reshape-instance_method) |
 | [numpy.resize](https://docs.scipy.org/doc/numpy/reference/generated/numpy.resize.html#numpy.resize) | not yet |
-| [numpy.restoredot](https://docs.scipy.org/doc/numpy/reference/generated/numpy.restoredot.html#numpy.restoredot) | not yet |
+| [numpy.restoredot](https://docs.scipy.org/doc/numpy/reference/generated/numpy.restoredot.html#numpy.restoredot) | no plan (deprecated) |
 | [numpy.result_type](https://docs.scipy.org/doc/numpy/reference/generated/numpy.result_type.html#numpy.result_type) | not yet |
 | [numpy.right_shift](https://docs.scipy.org/doc/numpy/reference/generated/numpy.right_shift.html#numpy.right_shift) | not yet |
 | [numpy.rint](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rint.html#numpy.rint) | [Numo::NArray#rint](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#rint-instance_method) |
@@ -351,7 +351,7 @@
 | [numpy.triu_indices_from](https://docs.scipy.org/doc/numpy/reference/generated/numpy.triu_indices_from.html#numpy.triu_indices_from) | not yet |
 | [numpy.true_divide](https://docs.scipy.org/doc/numpy/reference/generated/numpy.true_divide.html#numpy.true_divide) | not yet |
 | [numpy.trunc](https://docs.scipy.org/doc/numpy/reference/generated/numpy.trunc.html#numpy.trunc) | [Numo::NArray#trunc](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#trunc-instance_method) |
-| [numpy.typename](https://docs.scipy.org/doc/numpy/reference/generated/numpy.typename.html#numpy.typename) | no plan |
+| [numpy.typename](https://docs.scipy.org/doc/numpy/reference/generated/numpy.typename.html#numpy.typename) | no plan (use class) |
 | [numpy.union1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.union1d.html#numpy.union1d) | not yet |
 | [numpy.unique](https://docs.scipy.org/doc/numpy/reference/generated/numpy.unique.html#numpy.unique) | not yet |
 | [numpy.unpackbits](https://docs.scipy.org/doc/numpy/reference/generated/numpy.unpackbits.html#numpy.unpackbits) | not yet |
