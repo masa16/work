@@ -4,7 +4,7 @@
 
 | numpy | numo-narray |
 | ---------- | ---------- |
-| [numpy.absolute](https://docs.scipy.org/doc/numpy/reference/generated/numpy.absolute.html#numpy.absolute) | [Numo::DComplex#abs](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html) |
+| [numpy.absolute](https://docs.scipy.org/doc/numpy/reference/generated/numpy.absolute.html#numpy.absolute) | [Numo::DComplex#abs](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html#abs-instance_method) |
 | [numpy.add](https://docs.scipy.org/doc/numpy/reference/generated/numpy.add.html#numpy.add) | [Numo::NArray#+](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#%2B-instance_method) |
 | [numpy.all](https://docs.scipy.org/doc/numpy/reference/generated/numpy.all.html#numpy.all) | [Numo::Bit#all?](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#all%3F-instance_method) |
 | [numpy.allclose](https://docs.scipy.org/doc/numpy/reference/generated/numpy.allclose.html#numpy.allclose) | Numo::NArray#nearly_eq(other).all? |
@@ -89,7 +89,7 @@
 | [numpy.cumsum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cumsum.html#numpy.cumsum) | [Numo::NArray#cumsum](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#cumsum-instance_method) |
 | [numpy.deg2rad](https://docs.scipy.org/doc/numpy/reference/generated/numpy.deg2rad.html#numpy.deg2rad) | [Numo::NArray#deg2rad](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#deg2rad-instance_method) |
 | [numpy.degrees](https://docs.scipy.org/doc/numpy/reference/generated/numpy.degrees.html#numpy.degrees) | [Numo::NArray#rad2deg](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#rad2deg-instance_method) |
-| [numpy.delete](https://docs.scipy.org/doc/numpy/reference/generated/numpy.delete.html#numpy.delete) | [Numo::NArray#insert](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#insert-instance_method) |
+| [numpy.delete](https://docs.scipy.org/doc/numpy/reference/generated/numpy.delete.html#numpy.delete) | [Numo::NArray#delete](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#delete-instance_method) |
 | [numpy.diag](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diag.html#numpy.diag) | not yet |
 | [numpy.diag_indices](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diag_indices.html#numpy.diag_indices) | not yet |
 | [numpy.diag_indices_from](https://docs.scipy.org/doc/numpy/reference/generated/numpy.diag_indices_from.html#numpy.diag_indices_from) | not yet |
@@ -296,7 +296,7 @@
 | [numpy.rint](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rint.html#numpy.rint) | [Numo::NArray#rint](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#rint-instance_method) |
 | [numpy.roll](https://docs.scipy.org/doc/numpy/reference/generated/numpy.roll.html#numpy.roll) | not yet |
 | [numpy.rollaxis](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rollaxis.html#numpy.rollaxis) | not yet |
-| [numpy.roots](https://docs.scipy.org/doc/numpy/reference/generated/numpy.roots.html#numpy.roots) | not yet |
+| [numpy.roots](https://docs.scipy.org/doc/numpy/reference/generated/numpy.roots.html#numpy.roots) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
 | [numpy.rot90](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rot90.html#numpy.rot90) | not yet |
 | [numpy.round_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.round_.html#numpy.round_) | [Numo::NArray#round](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#round-instance_method) |
 | [numpy.s_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.s_.html#numpy.s_) | not yet |
