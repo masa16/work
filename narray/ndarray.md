@@ -2,9 +2,9 @@
 
 | numpy | numo-narray |
 | ---------- | ---------- |
-| [ndarray.\_\_array_finalize\_\_](https://docs.scipy.org/doc/numpy/user/c-info.beyond-basics.html#ndarray.__array_finalize__) |  |
-| [ndarray.\_\_array_priority\_\_](https://docs.scipy.org/doc/numpy/user/c-info.beyond-basics.html#ndarray.__array_priority__) |  |
-| [ndarray.\_\_array_wrap\_\_](https://docs.scipy.org/doc/numpy/user/c-info.beyond-basics.html#ndarray.__array_wrap__) |  |
+| [ndarray.\_\_array_finalize\_\_](https://docs.scipy.org/doc/numpy/user/c-info.beyond-basics.html#ndarray.__array_finalize__) | no plan |
+| [ndarray.\_\_array_priority\_\_](https://docs.scipy.org/doc/numpy/user/c-info.beyond-basics.html#ndarray.__array_priority__) | no plan |
+| [ndarray.\_\_array_wrap\_\_](https://docs.scipy.org/doc/numpy/user/c-info.beyond-basics.html#ndarray.__array_wrap__) | no plan |
 
 ## numpy.ndarray attribute
 
@@ -33,7 +33,7 @@
 | [numpy.ndarray.\_\_imul\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__imul__.html#numpy.ndarray.__imul__) | *= |
 | [numpy.ndarray.\_\_int\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__int__.html#numpy.ndarray.__int__) |  |
 | [numpy.ndarray.\_\_invert\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__invert__.html#numpy.ndarray.__invert__) | [Numo::NArray#~](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#~-instance_method) |
-| [numpy.ndarray.\_\_ior\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__ior__.html#numpy.ndarray.__ior__) | |= |
+| [numpy.ndarray.\_\_ior\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__ior__.html#numpy.ndarray.__ior__) | \|= |
 | [numpy.ndarray.\_\_ipow\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__ipow__.html#numpy.ndarray.__ipow__) | **= |
 | [numpy.ndarray.\_\_irshift\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__irshift__.html#numpy.ndarray.__irshift__) |  |
 | [numpy.ndarray.\_\_isub\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__isub__.html#numpy.ndarray.__isub__) | -= |
@@ -48,7 +48,7 @@
 | [numpy.ndarray.\_\_mul\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__mul__.html#numpy.ndarray.__mul__) | [Numo::NArray#%](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#*-instance_method) |
 | [numpy.ndarray.\_\_ne\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__ne__.html#numpy.ndarray.__ne__) | != |
 | [numpy.ndarray.\_\_neg\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__neg__.html#numpy.ndarray.__neg__) | [Numo::NArray#-@](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#-@-instance_method) |
-| [numpy.ndarray.\_\_nonzero\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__nonzero__.html#numpy.ndarray.__nonzero__) |  |
+| [numpy.ndarray.\_\_nonzero\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__nonzero__.html#numpy.ndarray.__nonzero__) | [Numo::Bit#where](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#where-instance_method) (flat-indexing) |
 | [numpy.ndarray.\_\_oct\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__oct__.html#numpy.ndarray.__oct__) |  |
 | [numpy.ndarray.\_\_or\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__or__.html#numpy.ndarray.__or__) | [Numo::NArray#\|](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#%7C-instance_method) |
 | [numpy.ndarray.\_\_pos\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__pos__.html#numpy.ndarray.__pos__) | +@ |
@@ -116,13 +116,13 @@
 | [numpy.ndarray.mean](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.mean.html#numpy.ndarray.mean) | [Numo::NArray#mean](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#mean-instance_method) |
 | [numpy.ndarray.min](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.min.html#numpy.ndarray.min) | [Numo::NArray#min](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#min-instance_method) |
 | [numpy.ndarray.newbyteorder](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.newbyteorder.html#numpy.ndarray.newbyteorder) | NArray[#to_host](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_host-instance_method), [#to_swapped](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_swapped-instance_method), [#to_network](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_network-instance_method), [#to_vacs](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_vacs-instance_method) |
-| [numpy.ndarray.nonzero](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.nonzero.html#numpy.ndarray.nonzero) |  |
+| [numpy.ndarray.nonzero](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.nonzero.html#numpy.ndarray.nonzero) | [Numo::Bit#where](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#where-instance_method) (flat-indexing) |
 | [numpy.ndarray.partition](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.partition.html#numpy.ndarray.partition) |  |
 | [numpy.ndarray.prod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.prod.html#numpy.ndarray.prod) |  |
 | [numpy.ndarray.ptp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.ptp.html#numpy.ndarray.ptp) |  |
-| [numpy.ndarray.put](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.put.html#numpy.ndarray.put) |  |
+| [numpy.ndarray.put](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.put.html#numpy.ndarray.put) | nary[ind] = val (aset as 1d) |
 | [numpy.ndarray.ravel](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.ravel.html#numpy.ndarray.ravel) |  |
-| [numpy.ndarray.repeat](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.repeat.html#numpy.ndarray.repeat) |  |
+| [numpy.ndarray.repeat](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.repeat.html#numpy.ndarray.repeat) | [Numo::NArray#repeat](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#repeat-instance_method) |
 | [numpy.ndarray.reshape](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.reshape.html#numpy.ndarray.reshape) | [Numo::NArray#reshape](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#reshape-instance_method) |
 | [numpy.ndarray.resize](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.resize.html#numpy.ndarray.resize) |  |
 | [numpy.ndarray.round](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.round.html#numpy.ndarray.round) | [Numo::NArray#round](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#round-instance_method) |
@@ -136,7 +136,7 @@
 | [numpy.ndarray.swapaxes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.swapaxes.html#numpy.ndarray.swapaxes) |  |
 | [numpy.ndarray.take](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.take.html#numpy.ndarray.take) |  |
 | [numpy.ndarray.tobytes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tobytes.html#numpy.ndarray.tobytes) | [Numo::NArray#to_binary](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_binary-instance_method) |
-| [numpy.ndarray.tofile](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tofile.html#numpy.ndarray.tofile) | open(file,"w"){\|f\| f.write(nary.to_binary)} |
+| [numpy.ndarray.tofile](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tofile.html#numpy.ndarray.tofile) | open(file,"w").write(nary.to_binary) |
 | [numpy.ndarray.tolist](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tolist.html#numpy.ndarray.tolist) | [Numo::NArray#to_a](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#to_a-instance_method) |
 | [numpy.ndarray.tostring](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tostring.html#numpy.ndarray.tostring) | [Numo::NArray#to_binary](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_binary-instance_method) |
 | [numpy.ndarray.trace](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.trace.html#numpy.ndarray.trace) |  |
