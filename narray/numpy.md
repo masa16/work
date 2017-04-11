@@ -28,7 +28,7 @@
 | [numpy.argmin](https://docs.scipy.org/doc/numpy/reference/generated/numpy.argmin.html#numpy.argmin) | [Numo::NArray#min_index](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#min_index-instance_method) |
 | [numpy.argpartition](https://docs.scipy.org/doc/numpy/reference/generated/numpy.argpartition.html#numpy.argpartition) |  |
 | [numpy.argsort](https://docs.scipy.org/doc/numpy/reference/generated/numpy.argsort.html#numpy.argsort) | [Numo::NArray#sort_index](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#sort_index-instance_method) |
-| [numpy.argwhere](https://docs.scipy.org/doc/numpy/reference/generated/numpy.argwhere.html#numpy.argwhere) | [Numo::Bit#where](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#where-instance_method) (flat-indexing) |
+| [numpy.argwhere](https://docs.scipy.org/doc/numpy/reference/generated/numpy.argwhere.html#numpy.argwhere) | [Numo::Bit#where](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#where-instance_method) (flat indexing) |
 | [numpy.around](https://docs.scipy.org/doc/numpy/reference/generated/numpy.around.html#numpy.around) | [Numo::NArray#round](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#round-instance_method) |
 | [numpy.array](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html#numpy.array) | [Numo::NArray.\[\]](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#[]-class_method) |
 | [numpy.array2string](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array2string.html#numpy.array2string) | [Numo::NArray#format_to_a](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#format_to_a-instance_method) |
@@ -243,7 +243,7 @@
 | [numpy.negative](https://docs.scipy.org/doc/numpy/reference/generated/numpy.negative.html#numpy.negative) | [Numo::NArray#-@](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#-@-instance_method) |
 | [numpy.newaxis](https://docs.scipy.org/doc/numpy/reference/arrays.indexing.html#numpy.newaxis) | :new (Ruby symbol) |
 | [numpy.newbuffer](https://docs.scipy.org/doc/numpy/reference/generated/numpy.newbuffer.html#numpy.newbuffer) |  |
-| [numpy.nonzero](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nonzero.html#numpy.nonzero) | [Numo::Bit#where](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#where-instance_method) (flat-indexing) |
+| [numpy.nonzero](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nonzero.html#numpy.nonzero) | [Numo::Bit#where](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#where-instance_method) (flat indexing) |
 | [numpy.not_equal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.not_equal.html#numpy.not_equal) | [Numo::NArray#ne](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#ne-instance_method) |
 | [numpy.nper](https://docs.scipy.org/doc/numpy/reference/generated/numpy.nper.html#numpy.nper) | no plan (financial) |
 | [numpy.npv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.npv.html#numpy.npv) | no plan (financial) |
@@ -260,13 +260,13 @@
 | [numpy.place](https://docs.scipy.org/doc/numpy/reference/generated/numpy.place.html#numpy.place) | Numo::NArray#\[\]= |
 | [numpy.pmt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pmt.html#numpy.pmt) | no plan (financial) |
 | [numpy.poly](https://docs.scipy.org/doc/numpy/reference/generated/numpy.poly.html#numpy.poly) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
-| [numpy.polyadd](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyadd.html#numpy.polyadd) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
-| [numpy.polyder](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyder.html#numpy.polyder) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
-| [numpy.polydiv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polydiv.html#numpy.polydiv) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
-| [numpy.polyfit](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyfit.html#numpy.polyfit) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
-| [numpy.polyint](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyint.html#numpy.polyint) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
-| [numpy.polymul](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polymul.html#numpy.polymul) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
-| [numpy.polysub](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polysub.html#numpy.polysub) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
+| [numpy.polyadd](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyadd.html#numpy.polyadd) | (polynomial) |
+| [numpy.polyder](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyder.html#numpy.polyder) | (polynomial) |
+| [numpy.polydiv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polydiv.html#numpy.polydiv) | (polynomial) |
+| [numpy.polyfit](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyfit.html#numpy.polyfit) |  |
+| [numpy.polyint](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyint.html#numpy.polyint) | (polynomial) |
+| [numpy.polymul](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polymul.html#numpy.polymul) | (polynomial) |
+| [numpy.polysub](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polysub.html#numpy.polysub) | (polynomial) |
 | [numpy.polyval](https://docs.scipy.org/doc/numpy/reference/generated/numpy.polyval.html#numpy.polyval) | [Numo::NArray#poly](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#poly-instance_method) |
 | [numpy.power](https://docs.scipy.org/doc/numpy/reference/generated/numpy.power.html#numpy.power) | [Numo::NArray#**](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#**-instance_method) |
 | [numpy.ppmt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ppmt.html#numpy.ppmt) | no plan (financial) |
@@ -362,6 +362,6 @@
 | [numpy.vdot](https://docs.scipy.org/doc/numpy/reference/generated/numpy.vdot.html#numpy.vdot) |  |
 | [numpy.vsplit](https://docs.scipy.org/doc/numpy/reference/generated/numpy.vsplit.html#numpy.vsplit) | [Numo::NArray#vsplit](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#vsplit-instance_method) |
 | [numpy.vstack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.vstack.html#numpy.vstack) | [Numo::NArray.vstack](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#vstack-class_method) |
-| [numpy.where](https://docs.scipy.org/doc/numpy/reference/generated/numpy.where.html#numpy.where) | [Numo::Bit#where](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#where-instance_method) (flat-indexing) |
+| [numpy.where](https://docs.scipy.org/doc/numpy/reference/generated/numpy.where.html#numpy.where) | [Numo::Bit#where](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#where-instance_method) (flat indexing) |
 | [numpy.zeros](https://docs.scipy.org/doc/numpy/reference/generated/numpy.zeros.html#numpy.zeros) | [Numo::NArray.zeros](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#zeros-class_method) |
 | [numpy.zeros_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.zeros_like.html#numpy.zeros_like) | [Numo::NArray#new_zeros](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#new_zeros-instance_method) |
