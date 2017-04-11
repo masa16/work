@@ -69,7 +69,7 @@
 | [numpy.ndarray.flat](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.flat.html#numpy.ndarray.flat) | (no iterator) |
 | [numpy.ndarray.imag](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.imag.html#numpy.ndarray.imag) | [Numo::NArray#imag](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html#imag-instance_method) |
 | [numpy.ndarray.itemsize](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.itemsize.html#numpy.ndarray.itemsize) | [Numo::NArray#byte_size](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#byte_size-class_method) |
-| [numpy.ndarray.nbytes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.nbytes.html#numpy.ndarray.nbytes) |  |
+| [numpy.ndarray.nbytes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.nbytes.html#numpy.ndarray.nbytes) | nary.byte_size * nary.size |
 | [numpy.ndarray.ndim](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.ndim.html#numpy.ndarray.ndim) | [Numo::NArray#ndim](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#ndim-instance_method) |
 | [numpy.ndarray.real](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.real.html#numpy.ndarray.real) | [Numo::NArray#real](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html#real-instance_method) |
 | [numpy.ndarray.shape](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.shape.html#numpy.ndarray.shape) | [Numo::NArray#shape](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#shape-instance_method) |
@@ -83,8 +83,8 @@
 | ---------- | ---------- |
 | [numpy.ndarray.\_\_array\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__array__.html#numpy.ndarray.__array__) |  |
 | [numpy.ndarray.\_\_array_wrap\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__array_wrap__.html#numpy.ndarray.__array_wrap__) |  |
-| [numpy.ndarray.\_\_copy\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__copy__.html#numpy.ndarray.__copy__) |  |
-| [numpy.ndarray.\_\_deepcopy\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__deepcopy__.html#numpy.ndarray.__deepcopy__) |  |
+| [numpy.ndarray.\_\_copy\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__copy__.html#numpy.ndarray.__copy__) | [Numo::NArray#clone](https://docs.ruby-lang.org/en/2.4.0/Object.html#method-i-clone), [Numo::NArray#dup](https://docs.ruby-lang.org/en/2.4.0/Object.html#method-i-dup) |
+| [numpy.ndarray.\_\_deepcopy\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__deepcopy__.html#numpy.ndarray.__deepcopy__) | Marshal.load(Marshal.dump(nary)) |
 | [numpy.ndarray.\_\_reduce\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__reduce__.html#numpy.ndarray.__reduce__) |  |
 | [numpy.ndarray.\_\_setstate\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__setstate__.html#numpy.ndarray.__setstate__) |  |
 | [numpy.ndarray.all](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.all.html#numpy.ndarray.all) | [Numo::Bit#all?](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#all%3F-instance_method) |
@@ -100,7 +100,7 @@
 | [numpy.ndarray.compress](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.compress.html#numpy.ndarray.compress) |  |
 | [numpy.ndarray.conj](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.conj.html#numpy.ndarray.conj) | [Numo::DComplex#conj](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html#conj-instance_method) |
 | [numpy.ndarray.conjugate](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.conjugate.html#numpy.ndarray.conjugate) | [Numo::DFloat#conj](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html#conj-instance_method) |
-| [numpy.ndarray.copy](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.copy.html#numpy.ndarray.copy) | Numo::NArray#copy |
+| [numpy.ndarray.copy](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.copy.html#numpy.ndarray.copy) | [Numo::NArray#clone](https://docs.ruby-lang.org/en/2.4.0/Object.html#method-i-clone), [Numo::NArray#dup](https://docs.ruby-lang.org/en/2.4.0/Object.html#method-i-dup) |
 | [numpy.ndarray.cumprod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.cumprod.html#numpy.ndarray.cumprod) | [Numo::NArray#cumprod](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#cumprod-instance_method) |
 | [numpy.ndarray.cumsum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.cumsum.html#numpy.ndarray.cumsum) | [Numo::NArray#cumsum](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#cumsum-instance_method) |
 | [numpy.ndarray.diagonal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.diagonal.html#numpy.ndarray.diagonal) | [Numo::NArray#diagonal](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#diagonal-instance_method) |
@@ -115,7 +115,7 @@
 | [numpy.ndarray.max](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.max.html#numpy.ndarray.max) | [Numo::NArray#max](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#max-instance_method) |
 | [numpy.ndarray.mean](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.mean.html#numpy.ndarray.mean) | [Numo::NArray#mean](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#mean-instance_method) |
 | [numpy.ndarray.min](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.min.html#numpy.ndarray.min) | [Numo::NArray#min](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#min-instance_method) |
-| [numpy.ndarray.newbyteorder](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.newbyteorder.html#numpy.ndarray.newbyteorder) |  |
+| [numpy.ndarray.newbyteorder](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.newbyteorder.html#numpy.ndarray.newbyteorder) | NArray[#to_host](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_host-instance_method), [#to_swapped](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_swapped-instance_method), [#to_network](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_network-instance_method), [#to_vacs](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_vacs-instance_method) |
 | [numpy.ndarray.nonzero](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.nonzero.html#numpy.ndarray.nonzero) |  |
 | [numpy.ndarray.partition](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.partition.html#numpy.ndarray.partition) |  |
 | [numpy.ndarray.prod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.prod.html#numpy.ndarray.prod) |  |
@@ -136,8 +136,8 @@
 | [numpy.ndarray.swapaxes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.swapaxes.html#numpy.ndarray.swapaxes) |  |
 | [numpy.ndarray.take](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.take.html#numpy.ndarray.take) |  |
 | [numpy.ndarray.tobytes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tobytes.html#numpy.ndarray.tobytes) | [Numo::NArray#to_binary](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_binary-instance_method) |
-| [numpy.ndarray.tofile](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tofile.html#numpy.ndarray.tofile) |  |
-| [numpy.ndarray.tolist](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tolist.html#numpy.ndarray.tolist) |  |
+| [numpy.ndarray.tofile](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tofile.html#numpy.ndarray.tofile) | open(file,"w"){|f| f.write(nary.to_binary)} |
+| [numpy.ndarray.tolist](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tolist.html#numpy.ndarray.tolist) | [Numo::NArray#to_a](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#to_a-instance_method) |
 | [numpy.ndarray.tostring](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tostring.html#numpy.ndarray.tostring) | [Numo::NArray#to_binary](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_binary-instance_method) |
 | [numpy.ndarray.trace](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.trace.html#numpy.ndarray.trace) |  |
 | [numpy.ndarray.transpose](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.transpose.html#numpy.ndarray.transpose) | [Numo::NArray#transpose](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#transpose-instance_method) |
@@ -148,4 +148,4 @@
 
 | numpy | numo-narray |
 | ---------- | ---------- |
-| [numpy.ndarray.\_\_new\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__new__.html#numpy.ndarray.__new__) |  |
+| [numpy.ndarray.\_\_new\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__new__.html#numpy.ndarray.__new__) | Numo::NArray.new |
