@@ -33,9 +33,9 @@
 | [numpy.array](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html#numpy.array) | [Numo::NArray.\[\]](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#[]-class_method) |
 | [numpy.array2string](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array2string.html#numpy.array2string) | [Numo::NArray#format_to_a](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#format_to_a-instance_method) |
 | [numpy.array_equal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array_equal.html#numpy.array_equal) | [Numo::NArray#==](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#==-instance_method) |
-| [numpy.array_equiv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array_equiv.html#numpy.array_equiv) |  |
-| [numpy.array_repr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array_repr.html#numpy.array_repr) |  |
-| [numpy.array_split](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array_split.html#numpy.array_split) |  |
+| [numpy.array_equiv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array_equiv.html#numpy.array_equiv) | nary1.eq(nary2).all? |
+| [numpy.array_repr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array_repr.html#numpy.array_repr) | Numo::NArray#inspect |
+| [numpy.array_split](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array_split.html#numpy.array_split) | [Numo::NArray#split](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#split-instance_method) |
 | [numpy.array_str](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array_str.html#numpy.array_str) |  |
 | [numpy.asanyarray](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asanyarray.html#numpy.asanyarray) |  |
 | [numpy.asarray](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asarray.html#numpy.asarray) | [Numo::NArray.cast](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#cast-class_method) |
@@ -45,9 +45,9 @@
 | [numpy.asfortranarray](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asfortranarray.html#numpy.asfortranarray) |  |
 | [numpy.asmatrix](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asmatrix.html#numpy.asmatrix) | (matrix) |
 | [numpy.asscalar](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asscalar.html#numpy.asscalar) |  |
-| [numpy.atleast_1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_1d.html#numpy.atleast_1d) |  |
-| [numpy.atleast_2d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_2d.html#numpy.atleast_2d) |  |
-| [numpy.atleast_3d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_3d.html#numpy.atleast_3d) |  |
+| [numpy.atleast_1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_1d.html#numpy.atleast_1d) | [Numo::NArray#atleast_1d](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#atleast_1d-instance_method) |
+| [numpy.atleast_2d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_2d.html#numpy.atleast_2d) | [Numo::NArray#atleast_2d](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#atleast_2d-instance_method) |
+| [numpy.atleast_3d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_3d.html#numpy.atleast_3d) | [Numo::NArray#atleast_3d](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#atleast_3d-instance_method) |
 | [numpy.average](https://docs.scipy.org/doc/numpy/reference/generated/numpy.average.html#numpy.average) | [Numo::GSL::Stats.wmean](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Stats.html#wmean-class_method) |
 | [numpy.bartlett](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bartlett.html#numpy.bartlett) | (window function) |
 | [numpy.base_repr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.base_repr.html#numpy.base_repr) |  |
