@@ -133,7 +133,7 @@
 | [numpy.ndarray.squeeze](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.squeeze.html#numpy.ndarray.squeeze) |  |
 | [numpy.ndarray.std](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.std.html#numpy.ndarray.std) | [Numo::NArray#stddev](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#stddev-instance_method) |
 | [numpy.ndarray.sum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.sum.html#numpy.ndarray.sum) | [Numo::NArray#sum](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#sum-instance_method) |
-| [numpy.ndarray.swapaxes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.swapaxes.html#numpy.ndarray.swapaxes) |  |
+| [numpy.ndarray.swapaxes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.swapaxes.html#numpy.ndarray.swapaxes) | [Numo::NArray#swapaxes](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#swapaxes-instance_method) |
 | [numpy.ndarray.take](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.take.html#numpy.ndarray.take) |  |
 | [numpy.ndarray.tobytes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tobytes.html#numpy.ndarray.tobytes) | [Numo::NArray#to_binary](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#to_binary-instance_method) |
 | [numpy.ndarray.tofile](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.tofile.html#numpy.ndarray.tofile) | open(file,"w").write(nary.to_binary) |

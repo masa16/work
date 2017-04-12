@@ -118,8 +118,8 @@
 | [numpy.fix](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fix.html#numpy.fix) |  |
 | [numpy.flatnonzero](https://docs.scipy.org/doc/numpy/reference/generated/numpy.flatnonzero.html#numpy.flatnonzero) | [Numo::Bit#where](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#where-instance_method) |
 | [numpy.flip](https://docs.scipy.org/doc/numpy/reference/generated/numpy.flip.html#numpy.flip) | [Numo::NArray#reverse](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#reverse-instance_method) |
-| [numpy.fliplr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fliplr.html#numpy.fliplr) |  |
-| [numpy.flipud](https://docs.scipy.org/doc/numpy/reference/generated/numpy.flipud.html#numpy.flipud) |  |
+| [numpy.fliplr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fliplr.html#numpy.fliplr) | [Numo::NArray#fliplr](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#fliplr-instance_method) |
+| [numpy.flipud](https://docs.scipy.org/doc/numpy/reference/generated/numpy.flipud.html#numpy.flipud) | [Numo::NArray#flipud](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#flipud-instance_method) |
 | [numpy.floor](https://docs.scipy.org/doc/numpy/reference/generated/numpy.floor.html#numpy.floor) | [Numo::NArray#floor](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#floor-instance_method) |
 | [numpy.floor_divide](https://docs.scipy.org/doc/numpy/reference/generated/numpy.floor_divide.html#numpy.floor_divide) |  |
 | [numpy.fmax](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fmax.html#numpy.fmax) |  |
@@ -297,7 +297,7 @@
 | [numpy.roll](https://docs.scipy.org/doc/numpy/reference/generated/numpy.roll.html#numpy.roll) |  |
 | [numpy.rollaxis](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rollaxis.html#numpy.rollaxis) |  |
 | [numpy.roots](https://docs.scipy.org/doc/numpy/reference/generated/numpy.roots.html#numpy.roots) | [Numo::GSL::Poly](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Poly.html) |
-| [numpy.rot90](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rot90.html#numpy.rot90) |  |
+| [numpy.rot90](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rot90.html#numpy.rot90) | [Numo::NArray#rot90](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#rot90-instance_method) |
 | [numpy.round_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.round_.html#numpy.round_) | [Numo::NArray#round](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#round-instance_method) |
 | [numpy.s_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.s_.html#numpy.s_) |  |
 | [numpy.save](https://docs.scipy.org/doc/numpy/reference/generated/numpy.save.html#numpy.save) | [Numo::NArray#marshal_dump](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#marshal_dump-instance_method) |
@@ -332,7 +332,7 @@
 | [numpy.std](https://docs.scipy.org/doc/numpy/reference/generated/numpy.std.html#numpy.std) | [Numo::NArray#stddev](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#stddev-instance_method) |
 | [numpy.subtract](https://docs.scipy.org/doc/numpy/reference/generated/numpy.subtract.html#numpy.subtract) | [Numo::NArray#-](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#--instance_method) |
 | [numpy.sum](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sum.html#numpy.sum) | [Numo::NArray#sum](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#sum-instance_method) |
-| [numpy.swapaxes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.swapaxes.html#numpy.swapaxes) |  |
+| [numpy.swapaxes](https://docs.scipy.org/doc/numpy/reference/generated/numpy.swapaxes.html#numpy.swapaxes) | [Numo::NArray#swapaxes](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#swapaxes-instance_method) |
 | [numpy.take](https://docs.scipy.org/doc/numpy/reference/generated/numpy.take.html#numpy.take) |  |
 | [numpy.tan](https://docs.scipy.org/doc/numpy/reference/generated/numpy.tan.html#numpy.tan) | [Numo::NMath.tan](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#tan-class_method) |
 | [numpy.tanh](https://docs.scipy.org/doc/numpy/reference/generated/numpy.tanh.html#numpy.tanh) | [Numo::NMath.tanh](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#tanh-class_method) |
