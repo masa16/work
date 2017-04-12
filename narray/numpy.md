@@ -45,9 +45,9 @@
 | [numpy.asfortranarray](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asfortranarray.html#numpy.asfortranarray) |  |
 | [numpy.asmatrix](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asmatrix.html#numpy.asmatrix) | (matrix) |
 | [numpy.asscalar](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asscalar.html#numpy.asscalar) |  |
-| [numpy.atleast_1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_1d.html#numpy.atleast_1d) | [Numo::NArray#atleast_1d](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#atleast_1d-instance_method) |
-| [numpy.atleast_2d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_2d.html#numpy.atleast_2d) | [Numo::NArray#atleast_2d](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#atleast_2d-instance_method) |
-| [numpy.atleast_3d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_3d.html#numpy.atleast_3d) | [Numo::NArray#atleast_3d](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#atleast_3d-instance_method) |
+| [numpy.atleast_1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_1d.html#numpy.atleast_1d) | numpy's behavior is weird |
+| [numpy.atleast_2d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_2d.html#numpy.atleast_2d) | numpy's behavior is weird |
+| [numpy.atleast_3d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_3d.html#numpy.atleast_3d) | numpy's behavior is weird |
 | [numpy.average](https://docs.scipy.org/doc/numpy/reference/generated/numpy.average.html#numpy.average) | [Numo::GSL::Stats.wmean](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Stats.html#wmean-class_method) |
 | [numpy.bartlett](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bartlett.html#numpy.bartlett) | (window function) |
 | [numpy.base_repr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.base_repr.html#numpy.base_repr) |  |
