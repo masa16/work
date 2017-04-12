@@ -222,7 +222,7 @@
 | [numpy.mintypecode](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mintypecode.html#numpy.mintypecode) | no plan |
 | [numpy.mirr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mirr.html#numpy.mirr) | no plan (financial) |
 | [numpy.mod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.mod.html#numpy.mod) | [Numo::NArray#%](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#%25-instance_method) |
-| [numpy.modf](https://docs.scipy.org/doc/numpy/reference/generated/numpy.modf.html#numpy.modf) |  |
+| [numpy.modf](https://docs.scipy.org/doc/numpy/reference/generated/numpy.modf.html#numpy.modf) | [Numo::DFloat#modf](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#modf-instance_method) |
 | [numpy.moveaxis](https://docs.scipy.org/doc/numpy/reference/generated/numpy.moveaxis.html#numpy.moveaxis) |  |
 | [numpy.msort](https://docs.scipy.org/doc/numpy/reference/generated/numpy.msort.html#numpy.msort) | [Numo::NArray#sort](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#sort-instance_method) |
 | [numpy.multiply](https://docs.scipy.org/doc/numpy/reference/generated/numpy.multiply.html#numpy.multiply) | [Numo::NArray#*](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#*-instance_method) |
