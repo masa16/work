@@ -45,9 +45,9 @@
 | [numpy.asfortranarray](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asfortranarray.html#numpy.asfortranarray) |  |
 | [numpy.asmatrix](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asmatrix.html#numpy.asmatrix) | (matrix) |
 | [numpy.asscalar](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asscalar.html#numpy.asscalar) |  |
-| [numpy.atleast_1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_1d.html#numpy.atleast_1d) | numpy's behavior is weird |
-| [numpy.atleast_2d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_2d.html#numpy.atleast_2d) | numpy's behavior is weird |
-| [numpy.atleast_3d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_3d.html#numpy.atleast_3d) | numpy's behavior is weird |
+| [numpy.atleast_1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_1d.html#numpy.atleast_1d) | internal |
+| [numpy.atleast_2d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_2d.html#numpy.atleast_2d) | internal |
+| [numpy.atleast_3d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_3d.html#numpy.atleast_3d) | internal |
 | [numpy.average](https://docs.scipy.org/doc/numpy/reference/generated/numpy.average.html#numpy.average) | [Numo::GSL::Stats.wmean](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Stats.html#wmean-class_method) |
 | [numpy.bartlett](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bartlett.html#numpy.bartlett) | (window function) |
 | [numpy.base_repr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.base_repr.html#numpy.base_repr) |  |
@@ -69,7 +69,7 @@
 | [numpy.choose](https://docs.scipy.org/doc/numpy/reference/generated/numpy.choose.html#numpy.choose) |  |
 | [numpy.class.\_\_array_priority\_\_](https://docs.scipy.org/doc/numpy/reference/arrays.classes.html#numpy.class.__array_priority__) | no plan |
 | [numpy.clip](https://docs.scipy.org/doc/numpy/reference/generated/numpy.clip.html#numpy.clip) |  |
-| [numpy.column_stack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.column_stack.html#numpy.column_stack) |  |
+| [numpy.column_stack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.column_stack.html#numpy.column_stack) | [Numo::NArray.column_stack](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#column_stack-class_method) |
 | [numpy.common_type](https://docs.scipy.org/doc/numpy/reference/generated/numpy.common_type.html#numpy.common_type) | [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) |
 | [numpy.compress](https://docs.scipy.org/doc/numpy/reference/generated/numpy.compress.html#numpy.compress) |  |
 | [numpy.concatenate](https://docs.scipy.org/doc/numpy/reference/generated/numpy.concatenate.html#numpy.concatenate) | [Numo::NArray#concatenate](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#concatenate-instance_method) |
@@ -171,7 +171,7 @@
 | [numpy.is_busday](https://docs.scipy.org/doc/numpy/reference/generated/numpy.is_busday.html#numpy.is_busday) | no plan (date) |
 | [numpy.isclose](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isclose.html#numpy.isclose) | [Numo::NArray#nearly_eq](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#nearly_eq-instance_method) |
 | [numpy.iscomplex](https://docs.scipy.org/doc/numpy/reference/generated/numpy.iscomplex.html#numpy.iscomplex) | nary.imag.ne(0) |
-| [numpy.iscomplexobj](https://docs.scipy.org/doc/numpy/reference/generated/numpy.iscomplexobj.html#numpy.iscomplexobj) |  |
+| [numpy.iscomplexobj](https://docs.scipy.org/doc/numpy/reference/generated/numpy.iscomplexobj.html#numpy.iscomplexobj) | nary.imag.ne(0).any? |
 | [numpy.isfinite](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isfinite.html#numpy.isfinite) | [Numo::NArray#isfinite](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#isfinite-instance_method) |
 | [numpy.isfortran](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isfortran.html#numpy.isfortran) |  |
 | [numpy.isinf](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isinf.html#numpy.isinf) | [Numo::NArray#isinf](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#isinf-instance_method) |
