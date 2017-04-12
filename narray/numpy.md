@@ -252,7 +252,7 @@
 | [numpy.ones](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ones.html#numpy.ones) | [Numo::NArray.ones](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#ones-class_method) |
 | [numpy.ones_like](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ones_like.html#numpy.ones_like) | [Numo::NArray#new_ones](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#new_ones-instance_method) |
 | [numpy.outer](https://docs.scipy.org/doc/numpy/reference/generated/numpy.outer.html#numpy.outer) |  |
-| [numpy.packbits](https://docs.scipy.org/doc/numpy/reference/generated/numpy.packbits.html#numpy.packbits) |  |
+| [numpy.packbits](https://docs.scipy.org/doc/numpy/reference/generated/numpy.packbits.html#numpy.packbits) | Numo::UInt8.from\_binary(Numo::Bit.cast(a).to_binary) |
 | [numpy.pad](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pad.html#numpy.pad) |  |
 | [numpy.partition](https://docs.scipy.org/doc/numpy/reference/generated/numpy.partition.html#numpy.partition) |  |
 | [numpy.percentile](https://docs.scipy.org/doc/numpy/reference/generated/numpy.percentile.html#numpy.percentile) |  |
@@ -280,7 +280,7 @@
 | [numpy.rad2deg](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rad2deg.html#numpy.rad2deg) | [Numo::NArray#rad2deg](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#rad2deg-instance_method) |
 | [numpy.radians](https://docs.scipy.org/doc/numpy/reference/generated/numpy.radians.html#numpy.radians) | [Numo::NArray#deg2rad](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#deg2rad-instance_method) |
 | [numpy.rate](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rate.html#numpy.rate) | no plan (financial) |
-| [numpy.ravel](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ravel.html#numpy.ravel) |  |
+| [numpy.ravel](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ravel.html#numpy.ravel) | nary.flatten.dup |
 | [numpy.ravel_multi_index](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ravel_multi_index.html#numpy.ravel_multi_index) |  |
 | [numpy.real](https://docs.scipy.org/doc/numpy/reference/generated/numpy.real.html#numpy.real) | [Numo::DComplex#real](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html#real-instance_method) |
 | [numpy.real_if_close](https://docs.scipy.org/doc/numpy/reference/generated/numpy.real_if_close.html#numpy.real_if_close) |  |
@@ -354,7 +354,7 @@
 | [numpy.typename](https://docs.scipy.org/doc/numpy/reference/generated/numpy.typename.html#numpy.typename) | no plan (use class) |
 | [numpy.union1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.union1d.html#numpy.union1d) |  |
 | [numpy.unique](https://docs.scipy.org/doc/numpy/reference/generated/numpy.unique.html#numpy.unique) |  |
-| [numpy.unpackbits](https://docs.scipy.org/doc/numpy/reference/generated/numpy.unpackbits.html#numpy.unpackbits) |  |
+| [numpy.unpackbits](https://docs.scipy.org/doc/numpy/reference/generated/numpy.unpackbits.html#numpy.unpackbits) | Numo::Bit.from\_binary(Numo::UInt8.cast(a).to_binary,[a.size,8]) |
 | [numpy.unravel_index](https://docs.scipy.org/doc/numpy/reference/generated/numpy.unravel_index.html#numpy.unravel_index) |  |
 | [numpy.unwrap](https://docs.scipy.org/doc/numpy/reference/generated/numpy.unwrap.html#numpy.unwrap) |  |
 | [numpy.vander](https://docs.scipy.org/doc/numpy/reference/generated/numpy.vander.html#numpy.vander) | (matrix) |
