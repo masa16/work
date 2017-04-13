@@ -189,7 +189,7 @@
 | [numpy.kaiser](https://docs.scipy.org/doc/numpy/reference/generated/numpy.kaiser.html#numpy.kaiser) | (window function) |
 | [numpy.kron](https://docs.scipy.org/doc/numpy/reference/generated/numpy.kron.html#numpy.kron) |  |
 | [numpy.ldexp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ldexp.html#numpy.ldexp) | [Numo::NMath.ldexp](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#ldexp-class_method) |
-| [numpy.left_shift](https://docs.scipy.org/doc/numpy/reference/generated/numpy.left_shift.html#numpy.left_shift) |  |
+| [numpy.left_shift](https://docs.scipy.org/doc/numpy/reference/generated/numpy.left_shift.html#numpy.left_shift) | [Numo::NArray#<<](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#<<-instance_method) |
 | [numpy.less](https://docs.scipy.org/doc/numpy/reference/generated/numpy.less.html#numpy.less) | [Numo::NArray#lt](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#lt-instance_method) |
 | [numpy.less_equal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.less_equal.html#numpy.less_equal) | [Numo::NArray#le](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#le-instance_method) |
 | [numpy.lexsort](https://docs.scipy.org/doc/numpy/reference/generated/numpy.lexsort.html#numpy.lexsort) |  |
@@ -292,7 +292,7 @@
 | [numpy.resize](https://docs.scipy.org/doc/numpy/reference/generated/numpy.resize.html#numpy.resize) |  |
 | [numpy.restoredot](https://docs.scipy.org/doc/numpy/reference/generated/numpy.restoredot.html#numpy.restoredot) | no plan (deprecated) |
 | [numpy.result_type](https://docs.scipy.org/doc/numpy/reference/generated/numpy.result_type.html#numpy.result_type) | [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) |
-| [numpy.right_shift](https://docs.scipy.org/doc/numpy/reference/generated/numpy.right_shift.html#numpy.right_shift) |  |
+| [numpy.right_shift](https://docs.scipy.org/doc/numpy/reference/generated/numpy.right_shift.html#numpy.right_shift) | [Numo::NArray#>>](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#>>-instance_method) |
 | [numpy.rint](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rint.html#numpy.rint) | [Numo::NArray#rint](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#rint-instance_method) |
 | [numpy.roll](https://docs.scipy.org/doc/numpy/reference/generated/numpy.roll.html#numpy.roll) |  |
 | [numpy.rollaxis](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rollaxis.html#numpy.rollaxis) |  |
@@ -326,7 +326,7 @@
 | [numpy.source](https://docs.scipy.org/doc/numpy/reference/generated/numpy.source.html#numpy.source) | no plan (documentation) |
 | [numpy.split](https://docs.scipy.org/doc/numpy/reference/generated/numpy.split.html#numpy.split) | [Numo::NArray#split](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#split-instance_method) |
 | [numpy.sqrt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.sqrt.html#numpy.sqrt) | [Numo::NMath.sqrt](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#sqrt-class_method) |
-| [numpy.square](https://docs.scipy.org/doc/numpy/reference/generated/numpy.square.html#numpy.square) |  |
+| [numpy.square](https://docs.scipy.org/doc/numpy/reference/generated/numpy.square.html#numpy.square) | [Numo::NArray#square](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#square-instance_method) |
 | [numpy.squeeze](https://docs.scipy.org/doc/numpy/reference/generated/numpy.squeeze.html#numpy.squeeze) |  |
 | [numpy.stack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.stack.html#numpy.stack) | [Numo::NArray.\[\]](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#[]-class_method) |
 | [numpy.std](https://docs.scipy.org/doc/numpy/reference/generated/numpy.std.html#numpy.std) | [Numo::NArray#stddev](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#stddev-instance_method) |

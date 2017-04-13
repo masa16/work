@@ -28,21 +28,21 @@
 | [numpy.ndarray.\_\_iand\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__iand__.html#numpy.ndarray.__iand__) | &= |
 | [numpy.ndarray.\_\_idiv\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__idiv__.html#numpy.ndarray.__idiv__) | /= |
 | [numpy.ndarray.\_\_ifloordiv\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__ifloordiv__.html#numpy.ndarray.__ifloordiv__) |  |
-| [numpy.ndarray.\_\_ilshift\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__ilshift__.html#numpy.ndarray.__ilshift__) |  |
+| [numpy.ndarray.\_\_ilshift\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__ilshift__.html#numpy.ndarray.__ilshift__) | <<= |
 | [numpy.ndarray.\_\_imod\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__imod__.html#numpy.ndarray.__imod__) | %= |
 | [numpy.ndarray.\_\_imul\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__imul__.html#numpy.ndarray.__imul__) | *= |
 | [numpy.ndarray.\_\_int\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__int__.html#numpy.ndarray.__int__) |  |
 | [numpy.ndarray.\_\_invert\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__invert__.html#numpy.ndarray.__invert__) | [Numo::NArray#~](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#~-instance_method) |
 | [numpy.ndarray.\_\_ior\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__ior__.html#numpy.ndarray.__ior__) | \|= |
 | [numpy.ndarray.\_\_ipow\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__ipow__.html#numpy.ndarray.__ipow__) | **= |
-| [numpy.ndarray.\_\_irshift\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__irshift__.html#numpy.ndarray.__irshift__) |  |
+| [numpy.ndarray.\_\_irshift\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__irshift__.html#numpy.ndarray.__irshift__) | >>= |
 | [numpy.ndarray.\_\_isub\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__isub__.html#numpy.ndarray.__isub__) | -= |
 | [numpy.ndarray.\_\_itruediv\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__itruediv__.html#numpy.ndarray.__itruediv__) |  |
 | [numpy.ndarray.\_\_ixor\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__ixor__.html#numpy.ndarray.__ixor__) | ^= |
 | [numpy.ndarray.\_\_le\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__le__.html#numpy.ndarray.__le__) | [Numo::NArray#le](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#le-instance_method) |
 | [numpy.ndarray.\_\_len\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__len__.html#numpy.ndarray.__len__) | [Numo::NArray#size](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#size-instance_method), length |
 | [numpy.ndarray.\_\_long\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__long__.html#numpy.ndarray.__long__) |  |
-| [numpy.ndarray.\_\_lshift\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__lshift__.html#numpy.ndarray.__lshift__) |  |
+| [numpy.ndarray.\_\_lshift\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__lshift__.html#numpy.ndarray.__lshift__) | [Numo::NArray#<<](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#<<-instance_method) |
 | [numpy.ndarray.\_\_lt\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__lt__.html#numpy.ndarray.__lt__) | [Numo::NArray#lt](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#lt-instance_method) |
 | [numpy.ndarray.\_\_mod\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__mod__.html#numpy.ndarray.__mod__) | [Numo::NArray#%](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#%25-instance_method) |
 | [numpy.ndarray.\_\_mul\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__mul__.html#numpy.ndarray.__mul__) | [Numo::NArray#%](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#*-instance_method) |
@@ -54,7 +54,7 @@
 | [numpy.ndarray.\_\_pos\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__pos__.html#numpy.ndarray.__pos__) | +@ |
 | [numpy.ndarray.\_\_pow\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__pow__.html#numpy.ndarray.__pow__) | [Numo::NArray#**](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#**-instance_method) |
 | [numpy.ndarray.\_\_repr\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__repr__.html#numpy.ndarray.__repr__) |  |
-| [numpy.ndarray.\_\_rshift\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__rshift__.html#numpy.ndarray.__rshift__) |  |
+| [numpy.ndarray.\_\_rshift\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__rshift__.html#numpy.ndarray.__rshift__) | [Numo::NArray#>>](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#>>-instance_method) |
 | [numpy.ndarray.\_\_setitem\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__setitem__.html#numpy.ndarray.__setitem__) | Numo::NArray#\[\]= |
 | [numpy.ndarray.\_\_setslice\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__setslice__.html#numpy.ndarray.__setslice__) |  |
 | [numpy.ndarray.\_\_str\_\_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.__str__.html#numpy.ndarray.__str__) |  |
