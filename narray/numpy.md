@@ -45,9 +45,9 @@
 | [numpy.asfortranarray](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asfortranarray.html#numpy.asfortranarray) |  |
 | [numpy.asmatrix](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asmatrix.html#numpy.asmatrix) | (matrix) |
 | [numpy.asscalar](https://docs.scipy.org/doc/numpy/reference/generated/numpy.asscalar.html#numpy.asscalar) |  |
-| [numpy.atleast_1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_1d.html#numpy.atleast_1d) | internal |
-| [numpy.atleast_2d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_2d.html#numpy.atleast_2d) | internal |
-| [numpy.atleast_3d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_3d.html#numpy.atleast_3d) | internal |
+| [numpy.atleast_1d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_1d.html#numpy.atleast_1d) | no plan (internal use) |
+| [numpy.atleast_2d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_2d.html#numpy.atleast_2d) | no plan (internal use) |
+| [numpy.atleast_3d](https://docs.scipy.org/doc/numpy/reference/generated/numpy.atleast_3d.html#numpy.atleast_3d) | no plan (internal use) |
 | [numpy.average](https://docs.scipy.org/doc/numpy/reference/generated/numpy.average.html#numpy.average) | [Numo::GSL::Stats.wmean](http://ruby-numo.github.io/gsl/doc/Numo/GSL/Stats.html#wmean-class_method) |
 | [numpy.bartlett](https://docs.scipy.org/doc/numpy/reference/generated/numpy.bartlett.html#numpy.bartlett) | (window function) |
 | [numpy.base_repr](https://docs.scipy.org/doc/numpy/reference/generated/numpy.base_repr.html#numpy.base_repr) |  |
@@ -63,14 +63,14 @@
 | [numpy.busday_count](https://docs.scipy.org/doc/numpy/reference/generated/numpy.busday_count.html#numpy.busday_count) | no plan (date feature) |
 | [numpy.busday_offset](https://docs.scipy.org/doc/numpy/reference/generated/numpy.busday_offset.html#numpy.busday_offset) | no plan (date feature) |
 | [numpy.c_](https://docs.scipy.org/doc/numpy/reference/generated/numpy.c_.html#numpy.c_) | no plan (index) |
-| [numpy.can_cast](https://docs.scipy.org/doc/numpy/reference/generated/numpy.can_cast.html#numpy.can_cast) | [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) |
+| [numpy.can_cast](https://docs.scipy.org/doc/numpy/reference/generated/numpy.can_cast.html#numpy.can_cast) | similar to [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) (internal use) |
 | [numpy.cbrt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.cbrt.html#numpy.cbrt) | [Numo::NMath.cbrt](http://ruby-numo.github.io/narray/narray/Numo/DFloat/Math.html#cbrt-class_method) |
 | [numpy.ceil](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ceil.html#numpy.ceil) | [Numo::NArray#ceil](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#ceil-instance_method) |
 | [numpy.choose](https://docs.scipy.org/doc/numpy/reference/generated/numpy.choose.html#numpy.choose) |  |
 | [numpy.class.\_\_array_priority\_\_](https://docs.scipy.org/doc/numpy/reference/arrays.classes.html#numpy.class.__array_priority__) | no plan |
-| [numpy.clip](https://docs.scipy.org/doc/numpy/reference/generated/numpy.clip.html#numpy.clip) |  |
+| [numpy.clip](https://docs.scipy.org/doc/numpy/reference/generated/numpy.clip.html#numpy.clip) | [Numo::NArray#clip](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#clip-instance_method) |
 | [numpy.column_stack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.column_stack.html#numpy.column_stack) | [Numo::NArray.column_stack](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#column_stack-class_method) |
-| [numpy.common_type](https://docs.scipy.org/doc/numpy/reference/generated/numpy.common_type.html#numpy.common_type) | [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) |
+| [numpy.common_type](https://docs.scipy.org/doc/numpy/reference/generated/numpy.common_type.html#numpy.common_type) | similar to [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) (internal use) |
 | [numpy.compress](https://docs.scipy.org/doc/numpy/reference/generated/numpy.compress.html#numpy.compress) |  |
 | [numpy.concatenate](https://docs.scipy.org/doc/numpy/reference/generated/numpy.concatenate.html#numpy.concatenate) | [Numo::NArray#concatenate](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#concatenate-instance_method) |
 | [numpy.conj](https://docs.scipy.org/doc/numpy/reference/generated/numpy.conj.html#numpy.conj) | [Numo::NArray#conj](http://ruby-numo.github.io/narray/narray/Numo/DComplex.html#conj-instance_method) |
@@ -114,7 +114,7 @@
 | [numpy.eye](https://docs.scipy.org/doc/numpy/reference/generated/numpy.eye.html#numpy.eye) | [Numo::NArray.eye](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#eye-class_method) |
 | [numpy.fabs](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fabs.html#numpy.fabs) | [Numo::NArray#abs](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#abs-instance_method) |
 | [numpy.fill_diagonal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fill_diagonal.html#numpy.fill_diagonal) |  |
-| [numpy.find_common_type](https://docs.scipy.org/doc/numpy/reference/generated/numpy.find_common_type.html#numpy.find_common_type) | [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) |
+| [numpy.find_common_type](https://docs.scipy.org/doc/numpy/reference/generated/numpy.find_common_type.html#numpy.find_common_type) | similar to [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) (internal use) |
 | [numpy.fix](https://docs.scipy.org/doc/numpy/reference/generated/numpy.fix.html#numpy.fix) |  |
 | [numpy.flatnonzero](https://docs.scipy.org/doc/numpy/reference/generated/numpy.flatnonzero.html#numpy.flatnonzero) | [Numo::Bit#where](http://ruby-numo.github.io/narray/narray/Numo/Bit.html#where-instance_method) |
 | [numpy.flip](https://docs.scipy.org/doc/numpy/reference/generated/numpy.flip.html#numpy.flip) | [Numo::NArray#reverse](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#reverse-instance_method) |
@@ -176,8 +176,8 @@
 | [numpy.isfortran](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isfortran.html#numpy.isfortran) |  |
 | [numpy.isinf](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isinf.html#numpy.isinf) | [Numo::NArray#isinf](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#isinf-instance_method) |
 | [numpy.isnan](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isnan.html#numpy.isnan) | [Numo::NArray#isnan](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#isnan-instance_method) |
-| [numpy.isneginf](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isneginf.html#numpy.isneginf) |  |
-| [numpy.isposinf](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isposinf.html#numpy.isposinf) |  |
+| [numpy.isneginf](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isneginf.html#numpy.isneginf) | [Numo::NArray#isneginf](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#isneginf-instance_method) |
+| [numpy.isposinf](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isposinf.html#numpy.isposinf) | [Numo::NArray#isposinf](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#isposinf-instance_method) |
 | [numpy.isreal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isreal.html#numpy.isreal) | nary.imag.eq(0) |
 | [numpy.isrealobj](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isrealobj.html#numpy.isrealobj) | nary.imag.eq(0).all? |
 | [numpy.isscalar](https://docs.scipy.org/doc/numpy/reference/generated/numpy.isscalar.html#numpy.isscalar) | no plan |
@@ -271,8 +271,8 @@
 | [numpy.power](https://docs.scipy.org/doc/numpy/reference/generated/numpy.power.html#numpy.power) | [Numo::NArray#**](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#**-instance_method) |
 | [numpy.ppmt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ppmt.html#numpy.ppmt) | no plan (financial) |
 | [numpy.prod](https://docs.scipy.org/doc/numpy/reference/generated/numpy.prod.html#numpy.prod) |  |
-| [numpy.promote_types](https://docs.scipy.org/doc/numpy/reference/generated/numpy.promote_types.html#numpy.promote_types) | [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) |
-| [numpy.ptp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ptp.html#numpy.ptp) |  |
+| [numpy.promote_types](https://docs.scipy.org/doc/numpy/reference/generated/numpy.promote_types.html#numpy.promote_types) | similar to [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) (internal use) |
+| [numpy.ptp](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ptp.html#numpy.ptp) | [Numo::NArray#ptp](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#ptp-instance_method) |
 | [numpy.put](https://docs.scipy.org/doc/numpy/reference/generated/numpy.put.html#numpy.put) | nary[ind] = val (aset as 1d) |
 | [numpy.putmask](https://docs.scipy.org/doc/numpy/reference/generated/numpy.putmask.html#numpy.putmask) |  |
 | [numpy.pv](https://docs.scipy.org/doc/numpy/reference/generated/numpy.pv.html#numpy.pv) | no plan (financial) |
@@ -291,7 +291,7 @@
 | [numpy.reshape](https://docs.scipy.org/doc/numpy/reference/generated/numpy.reshape.html#numpy.reshape) | [Numo::NArray#reshape](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#reshape-instance_method) |
 | [numpy.resize](https://docs.scipy.org/doc/numpy/reference/generated/numpy.resize.html#numpy.resize) |  |
 | [numpy.restoredot](https://docs.scipy.org/doc/numpy/reference/generated/numpy.restoredot.html#numpy.restoredot) | no plan (deprecated) |
-| [numpy.result_type](https://docs.scipy.org/doc/numpy/reference/generated/numpy.result_type.html#numpy.result_type) | [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) |
+| [numpy.result_type](https://docs.scipy.org/doc/numpy/reference/generated/numpy.result_type.html#numpy.result_type) | similar to [Numo::NArray.upcast](http://ruby-numo.github.io/narray/narray/Numo/NArray.html#upcast-class_method) (internal use) |
 | [numpy.right_shift](https://docs.scipy.org/doc/numpy/reference/generated/numpy.right_shift.html#numpy.right_shift) | [Numo::NArray#>>](http://ruby-numo.github.io/narray/narray/Numo/Int32.html#>>-instance_method) |
 | [numpy.rint](https://docs.scipy.org/doc/numpy/reference/generated/numpy.rint.html#numpy.rint) | [Numo::NArray#rint](http://ruby-numo.github.io/narray/narray/Numo/DFloat.html#rint-instance_method) |
 | [numpy.roll](https://docs.scipy.org/doc/numpy/reference/generated/numpy.roll.html#numpy.roll) |  |
